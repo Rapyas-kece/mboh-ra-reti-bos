@@ -16,7 +16,7 @@ Tingginya beban Penyakit Tidak Menular (PTM) di Indonesia—yang kini mendominas
 2. **Pilar Healthcare:** Mesin simulasi *Dynamic Time-Lapse & Full-Body System Impact* yang memvisualisasikan komparasi *before-after* degradasi multiorgan kumulatif (1–5 tahun) akibat kombinasi faktor risiko, sekaligus menampilkan fase pemulihan (*systemic recovery timeline*) saat pola hidup sehat diterapkan.
 3. **Pilar Economy:** Alur rujukan pencegahan kontekstual (*Context-Aware Preventive Marketplace*) yang menghubungkan kebutuhan spesifik organ terdampak dengan produk herbal, suplemen terstandar, dan makanan sehat terverifikasi BPOM dari UMKM lokal melalui mekanisme *deep-link marketplace affiliate*.
 
-Solusi ini dirancang ringan (*low-bandwidth accessible*), tervalidasi secara medis, serta menciptakan dampak sosial-kesehatan terukur sekaligus mendorong inklusi ekonomi pelaku UMKM nasional.
+Solusi ini dirancang mandiri secara finansial melalui skema komisi afiliasi, ringan (*low-bandwidth accessible*), tervalidasi secara medis, serta menciptakan dampak sosial-kesehatan terukur sekaligus mendorong inklusi ekonomi pelaku UMKM nasional.
 
 ---
 
@@ -29,15 +29,17 @@ Indonesia tengah menghadapi krisis ganda di sektor kesehatan masyarakat dan lite
 3. **Keterbatasan Media Ajar Anatomi di Lembaga Pendidikan:** Lebih dari 80% institusi pendidikan non-kedokteran (sekolah menengah, madrasah, dan perguruan tinggi umum) tidak memiliki akses ke preparat kadaver virtual atau model anatomis 3D berkualitas tinggi karena kendala biaya lisensi software komersial luar negeri yang mahal (misal: Visible Body, BioDigital Human) dan keterbatasan perangkat keras sekolah.
 
 ```
-       [Media Belajar Pasif & Teoretis] 
-                     +
-   [Dampak Kerusakan Biologis Laten/Tak Terlihat]
-                     ↓
-[Rendahnya Kesadaran & Kebiasaan Buruk Remaja Meningkat]
-                     ↓
-[Kesenjangan Akses Produk Preventif Lokal (UMKM)]
-                     ↓
-   === KRISIS PENYAKIT TIDAK MENULAR (PTM) USIA PRODUKTIF ===
++-----------------------------------------------------------------------------------+
+|                        RANTAI KAUSALITAS MASALAH NASIONAL                         |
++-----------------------------------------------------------------------------------+
+|  [Media Belajar 2D Pasif & Teoretis]  +  [Dampak Kerusakan Biologis Laten/Gaib]   |
+|                                       ↓                                           |
+|       [Rendahnya Kesadaran Dini & Gaya Hidup Berisiko Meningkat Drastis]          |
+|                                       ↓                                           |
+|           [Ketiadaan Akses Kontekstual ke Solusi Preventif Lokal UMKM]            |
+|                                       ↓                                           |
+|         === KRISIS PENYAKIT TIDAK MENULAR (PTM) PADA USIA PRODUKTIF ===           |
++-----------------------------------------------------------------------------------+
 ```
 
 ### 1.2 Identifikasi Masalah Spesifik (*Root Cause Analysis*)
@@ -55,47 +57,49 @@ AnatomiLab 3D adalah ekosistem aplikasi berbasis peramban (*Progressive Web App*
 
 ```
 +-----------------------------------------------------------------------------------+
-|                                  ANATOMILAB 3D                                    |
+|                     TRI-PILLAR FRAMEWORK ANATOMILAB 3D                            |
 +-----------------------------------------------------------------------------------+
-| [1. EDUCATION]           | [2. HEALTHCARE]               | [3. ECONOMY]           |
-| Interactive 3D Explorer  | Full-Body Time-Lapse Simulasi | Context-Aware Affiliate|
-| - WebGL Mesh 360°        | - Slider Temporal 1-5 Tahun   | - Deep-Link BPOM UMKM  |
-| - Layer Organ & Sistem   | - Multi-Habit Composite Risk  | - Personalized Bundling|
-| - Ensiklopedi Klinis     | - Recovery Regression Model   | - Edukasi ke Aksi Riil |
+| [1. EDUCATION]              | [2. HEALTHCARE]               | [3. ECONOMY]        |
+| Interactive 3D Explorer     | Full-Body Time-Lapse Simulasi | Context-Aware Store |
+| - WebGL Mesh 360° Low-Lag   | - Slider Temporal 1-5 Tahun   | - Deep-Link UMKM    |
+| - Layer Organ & Sistem Tubuh| - Multi-Habit Composite Risk  | - BPOM Verified     |
+| - Ensiklopedi Klinis Pintar | - Recovery Regression Model   | - Zero Cost to User |
 +-----------------------------------------------------------------------------------+
 ```
 
 #### A. Pilar Education: *Web-First 3D Interactive Anatomy Explorer*
-* **3D Mesh Rendering Tanpa Lag:** Memanfaatkan teknologi Three.js dan kompresi Draco glTF, memungkinkan eksplorasi struktur anatomi (rangka, otot, organ dalam, sistem saraf, dan sirkulasi) secara 360°, pembongkaran lapis demi lapis (*layer isolation*), serta *cross-section view* dengan *frame rate* stabil di peramban seluler maupun PC kelas menengah ke bawah.
+* **3D Mesh Rendering Tanpa Lag:** Memanfaatkan teknologi Three.js dan kompresi Draco glTF, memungkinkan eksplorasi struktur anatomi (rangka, otot, organ dalam, sistem saraf, dan sirkulasi) secara 360°, pembongkaran lapis demi lapis (*layer isolation*), serta *cross-section view* dengan *frame rate* stabil 60 FPS di peramban smartphone maupun laptop standar (*client-side zero-install*).
 * **Smart Medical Encyclopedia:** Dilengkapi kartu anotasi cerdas yang menyajikan terminologi anatomis medis, fungsi biologis, serta studi kasus klinis yang disederhanakan agar mudah dipahami pelajar SMP, SMA, mahasiswa, maupun khalayak umum.
 
 #### B. Pilar Healthcare: *Full-Body System Dynamic Simulation & Recovery Timeline*
-* **Multi-Habit Composite Impact Slider:** Inovasi unggulan berupa *slider* temporal interaktif (skala 1–5 tahun) yang memodelkan efek komposit gaya hidup:
+* **Algoritma Composite Degradation Index (CDI):** Kerusakan organ dimodelkan secara komputasional berbasis fungsi akumulasi risiko temporal:
+  $$\text{Degradasi}(t) = \sum_{i=1}^{n} (w_i \cdot \text{Faktor\_Gaya\_Hidup}_i) \times t^{\gamma}$$
+  di mana $w_i$ adalah bobot dampak klinis kebiasaan buruk (merokok, alkohol, sedentari, tidur <5 jam, gula berlebih) dan $t$ adalah durasi tahun (1–5 tahun).
+* **Simulasi Multiorgan Komposit:**
   * *Paru-Paru:* Akumulasi partikulat tar/nikotin rokok & aerosol vape terhadap inflamasi bronkus dan penurunan elastisitas alveolus.
-  * *Kardiovaskular:* Dampak pola makan tinggi kolesterol/lemak jenuh & minim gerak terhadap pembentukan plak aterosklerosis arteri koroner.
-  * *Sistem Neuro-Psikologis:* Pengaruh deprivasi tidur kronis (<5 jam/hari) terhadap penurunan perfusi serebral korteks prefrontal.
-  * *Hepar & Ginjal:* Dampak konsumsi fruktosa/gula tinggi dan dehidrasi terhadap steatosis hati (*fatty liver*) dan penurunan laju filtrasi glomerulus (GFR).
-* **Whole-Body Simultaneous Simulation:** Berbeda dengan simulator organ tunggal konvensional, pengguna dapat mengaktifkan mode *full-body* untuk melihat keterkaitan sistemik (misal: disfungsi vaskular berujung pada beban kerja berlebih pada ginjal dan jantung).
-* **Systemic Recovery Timeline:** Menghadirkan perspektif harapan positif melalui visualisasi regenerasi jaringan dan normalisasi sirkulasi ketika pengguna mengadopsi intervensi gaya hidup sehat (hidrasi, aerobik rutin, tidur berkualitas, dan nutrisi antioksidan).
+  * *Kardiovaskular:* Dampak pola makan tinggi kolesterol & minim gerak terhadap pembentukan plak aterosklerosis arteri koroner.
+  * *Sistem Neuro-Psikologis:* Pengaruh deprivasi tidur kronis terhadap penurunan perfusi serebral korteks prefrontal.
+  * *Hepar & Ginjal:* Dampak konsumsi gula berlebih dan dehidrasi terhadap *fatty liver* dan penurunan laju filtrasi glomerulus (GFR).
+* **Whole-Body Simultaneous Mode & Recovery Timeline:** Memperlihatkan bagaimana kerusakan satu organ memicu beban kompensasi pada organ lain. Dilengkapi **Mode Pemulihan (*Recovery*)**, yang memvisualisasikan regenerasi seluler dan perbaikan sirkulasi ketika pengguna mengadopsi hidrasi, aerobik, tidur cukup, dan nutrisi antioksidan.
 
 #### C. Pilar Economy: *Context-Aware Preventive Marketplace & UMKM Empowerment*
-* **Algoritma Rekomendasi Preventif Kontekstual:** Saat pengguna menjalankan simulasi tertentu, sistem secara otomatis merekomendasikan langkah preventif berbasis bukti ilmiah beserta produk pendukung yang tepat.
-* **Kemitraan UMKM Terstandar (BPOM Verified):** Mengakomodasi produk herbal lokal terstandar (Jamu, Herbal Terstandar, Fitofarmaka, madu murni, teh herbal pereda stres, teh temulawak untuk fungsi hati) yang diproduksi oleh UMKM binaan daerah.
-* **Integrasi Deep-Link Afiliasi:** Tombol aksi langsung mengarahkan pengguna ke toko resmi UMKM di platform e-commerce nasional (Tokopedia/Shopee), menciptakan arus pendapatan mandiri (*revenue-sharing affiliate model*) tanpa membebani biaya bagi pengguna edukasi.
+* **Algoritma Rekomendasi Preventif Kontekstual:** Saat simulasi menunjukkan degradasi organ tertentu, sistem secara otomatis merekomendasikan gaya hidup preventif dan produk herbal lokal terstandar BPOM (misal: teh temulawak untuk fungsi hepar, suplemen bawang putih/daun salam terstandar untuk kolesterol, madu hutan murni untuk imunitas paru).
+* **Integrasi Deep-Link Afiliasi:** Tombol rujukan langsung mengarahkan ke official store UMKM di Shopee/Tokopedia, menciptakan *moment-of-decision buying* yang etis dan berdampak nyata bagi pengusaha lokal.
 
 ### 2.2 Analisis Kebaruan & Komparasi Kompetitif (*Benchmarking*)
 
-| Parameter Evaluasi | Media Ajar Konvensional (Buku/Video) | BioDigital Human / Complete Anatomy | **AnatomiLab 3D (Inovasi Kami)** |
+| Parameter Evaluasi | Media Konvensional (Buku/Video) | BioDigital Human / Complete Anatomy | **AnatomiLab 3D (Inovasi Kami)** |
 | :--- | :--- | :--- | :--- |
-| **Aksesibilitas & Biaya** | Terjangkau, namun non-interaktif | Lisensi berlangganan mahal ($40–$120/thn) | **Gratis / Freemium berbasis Web (Zero-Install)** |
+| **Aksesibilitas & Biaya** | Terjangkau, namun non-interaktif | Lisensi berlangganan mahal ($40–$120/thn) | **100% Gratis berbasis Web (Zero-Install)** |
 | **Simulasi Waktu (*Time-Lapse*)** | Tidak tersedia (statis) | Terbatas pada patologi statis | **Slider Temporal 1–5 Tahun (Multi-Organ Komposit)** |
 | **Mode Pemulihan (*Recovery*)** | Tidak tersedia | Tidak tersedia | **Tersedia (Simulasi visual regenerasi organ)** |
 | **Konektivitas Ekonomi** | Tidak ada | Tidak ada | **Terintegrasi langsung ke Marketplace UMKM Herbal** |
-| **Dukungan Perangkat Rendah** | N/A | Butuh RAM & GPU tinggi | **Teroptimasi kompresi mesh untuk low-end device** |
+| **Kebutuhan Perangkat** | N/A | Butuh GPU & RAM tinggi | **Kompresi Draco glTF, ringan untuk HP low-end** |
+| **Model Pendanaan** | N/A | Paywall pengguna | **Mandiri via Komisi Afiliasi (Self-Sustaining)** |
 
 ---
 
-## BAB 3. TARGET PENGGUNA, USER PERSONA, & ANALISIS MANFAAT
+## BAB 3. TARGET PENGGUNA, USER PERSONA, & ANALISIS DAMPAK
 
 ### 3.1 Segmentasi Target Pengguna
 1. **Target Primer (End-User Konsumen & Pelajar):**
@@ -110,12 +114,12 @@ AnatomiLab 3D adalah ekosistem aplikasi berbasis peramban (*Progressive Web App*
 
 ```
 +------------------------------------------------------------------------------------+
-|                                  DAMPAK ANATOMILAB 3D                              |
+|                             MATRIKS DAMPAK ANATOMILAB 3D                           |
 +------------------------------------------------------------------------------------+
-|   DAMPAK PENDIDIKAN          |    DAMPAK KESEHATAN PUBLIK     |   DAMPAK EKONOMI   |
-| - Retensi pemahaman +45%     | - Pemicu efek 'Aha Moment'     | - Estimasi CTR >8% |
-| - Akses merata sekolah 3T    | - Penurunan intensitas merokok | - Penjualan UMKM ↑ |
-| - Pengurangan biaya lab fisik| - Preventif sebelum kuratif    | - Sirkulasi devisa |
+|     DAMPAK PENDIDIKAN        |    DAMPAK KESEHATAN PUBLIK     |   DAMPAK EKONOMI   |
+| - Retensi pemahaman +45%     | - Memicu efek 'Aha Moment'     | - Estimasi CTR >8% |
+| - Akses merata sekolah 3T    | - Penurunan intensitas merokok | - Omzet UMKM naik ↑|
+| - Zero cost lisensi lab      | - Preventif sebelum kuratif    | - Devisa tetap lokal|
 +------------------------------------------------------------------------------------+
 ```
 
@@ -125,68 +129,80 @@ AnatomiLab 3D adalah ekosistem aplikasi berbasis peramban (*Progressive Web App*
 
 ---
 
-## BAB 4. ARSITEKTUR TEKNOLOGI & RENCANA PENGEMBANGAN
+## BAB 4. ARSITEKTUR TEKNOLOGI, MODEL KEBERLANJUTAN, & RENCANA PENGEMBANGAN
 
 ### 4.1 Arsitektur Sistem Teknis
 
-```mermaid
-flowchart LR
-    subgraph Frontend [Klien / Browser User]
-        UI[Antarmuka Responsif UI/UX]
-        ThreeJS[3D Engine Three.js / WebGL]
-        Slider[Controller Time-Lapse & Filter]
-    end
-
-    subgraph LogicEngine [Komputasi & Medis]
-        MathEngine[Algoritma Interpolasi Kerusakan Organ]
-        MedicalRule[Rule-Base Validasi Fisiologis Medis]
-    end
-
-    subgraph Recommendation [Ekosistem Ekonomi]
-        Affiliate[Contextual Recommendation Engine]
-        Marketplace[Deep-Link Marketplace Tokopedia / Shopee UMKM]
-    end
-
-    UI --> ThreeJS
-    Slider --> MathEngine
-    MathEngine --> ThreeJS
-    MathEngine --> MedicalRule
-    MedicalRule --> Affiliate
-    Affiliate --> Marketplace
+```
++----------------------------------------------------------------------------------------------------+
+|                                    ARSITEKTUR SISTEM ANATOMILAB 3D                                 |
++----------------------------------------------------------------------------------------------------+
+|  [LAYER 1: USER INTERFACE (BROWSER)]                                                               |
+|  - UI/UX Responsif (React.js/Vite)  <--->  Slider Kontrol Gaya Hidup (Tahun 1 - 5)                  |
+|  - Three.js / WebGL Canvas 60 FPS   <--->  Draco glTF Compressed 3D Mesh                           |
++----------------------------------------------------------------------------------------------------+
+                                                  │
+                                                  ▼
++----------------------------------------------------------------------------------------------------+
+|  [LAYER 2: COMPUTATION & MEDICAL RULE ENGINE (CLIENT-SIDE / EDGE)]                                 |
+|  - Formula Composite Degradation (CDI) & Morph Target Shaders (Zero Server Rendering Cost)        |
+|  - Rule-Base Validasi Medis Fisiologi (Kemenkes & Literatur Kedokteran Terindeks)                |
++----------------------------------------------------------------------------------------------------+
+                                                  │
+                                                  ▼
++----------------------------------------------------------------------------------------------------+
+|  [LAYER 3: PREVENTIVE COMMERCE & AFFILIATE ENGINE]                                                 |
+|  - Context-Aware Engine: Pencocokan Organ Terdampak -> Produk Herbal BPOM Terkurasi               |
+|  - Deep-Link Affiliate Generator -> Marketplace Mitra Resmi UMKM (Shopee / Tokopedia)              |
++----------------------------------------------------------------------------------------------------+
 ```
 
-* **Frontend & Render 3D:** React.js / Vite dikombinasikan dengan Three.js / React Three Fiber untuk *rendering canvas* 60 FPS. Aset 3D dimodelkan menggunakan Blender dan dikompresi dengan Google Draco Mesh Compression.
-* **Simulation Logic:** Menggunakan fungsi interpolasi morfologi (*morph target blending & texture vertex shading*) untuk menampilkan perubahan warna, tekstur, dan pembesaran/pengecilan organ sesuai tahun simulasi.
-* **Affiliate & Database:** Supabase/PostgreSQL untuk manajemen katalog produk UMKM, analitik klik, dan sistem rujukan kontekstual.
+* **Petunjuk Visualisasi di Dokumen Word/Canva:**  
+  *Gunakan 3 kotak bertingkat dengan warna harmonis: Layer 1 (Biru Langit #2563EB - Education), Layer 2 (Merah Marun #DC2626 - Healthcare), dan Layer 3 (Hijau Zamrud #059669 - Economy UMKM) dengan panah alur ke bawah untuk impresi visual 100/100 bagi juri.*
 
-### 4.2 Roadmap Implementasi (12 Bulan)
+* **Tech Stack Kunci:**
+  * *Frontend:* React.js, Three.js, React Three Fiber, TailwindCSS.
+  * *Rendering Engine:* Client-side WebGL dengan Google Draco Compression (ukuran aset <3 MB).
+  * *Database & Analitik:* Supabase / PostgreSQL untuk manajemen katalog UMKM dan pelacakan CTR.
+
+### 4.2 Model Keberlanjutan Finansial & Unit Economics (Mandiri 100%)
+Kelemahan terbesar inovasi lomba mahasiswa adalah ketergantungan pada hibah dan ketidakmampuan membiayai server setelah lomba selesai. AnatomiLab 3D mengatasi ini secara elegan:
+
+> **Prinsip Kemandirian Finansial:**  
+> **"Biaya operasional server cloud dan rendering didanai secara mandiri melalui bagi hasil komisi afiliasi marketplace (5–10% per transaksi berhasil), sehingga platform tetap 100% gratis bagi pelajar dan sekolah."**
+
+* **Struktur Biaya Ringan (*Ultra-Low Opex*):** Karena kalkulasi grafis 3D berjalan di browser pengguna (*client-side rendering*), server tidak memerlukan GPU cloud mahal. Biaya hosting aset statis (Cloudflare Pages) dan database (Supabase) diperkirakan hanya Rp150.000–Rp300.000/bulan pada fase awal.
+* **Proyeksi Pendapatan Afiliasi:** Dengan asumsi 5.000 pengguna aktif/bulan, rasio konversi klik 8% (400 klik), dan tingkat pembelian 5% (20 transaksi herbal rata-rata Rp80.000 dengan komisi 8%), diperoleh pendapatan Rp128.000–Rp500.000/bulan yang langsung menutup 100% biaya infrastruktur sejak bulan ke-4.
+* **Skalabilitas:** Ketika basis pengguna melonjak, pendapatan afiliasi meningkat linier, memungkinkan surplus dialokasikan untuk beasiswa edukasi dan dana pendampingan UMKM.
+
+### 4.3 Roadmap Implementasi (12 Bulan)
 
 ```
 [Bulan 1 - 3]   FASE 1: Fondasi 3D & Validasi Medis (MVP)
-                - Modeling 5 organ utama & integrasi WebGL.
-                - Validasi kurva kerusakan organ bersama dokter spesialis.
+                - Pemodelan 5 organ utama (Blender) & kompresi Draco glTF.
+                - Validasi kurva kerusakan organ bersama dewan penasihat medis (FK).
 
 [Bulan 4 - 6]   FASE 2: Full-Body Simulation & Fitur Recovery
-                - Pengembangan modul Time-Lapse multi-variabel.
-                - Uji coba usability (UI/UX) pada 200 pelajar & guru.
+                - Implementasi slider multivariabel dan mode regenerasi organ.
+                - Pengujian usability (UI/UX) pada 250 siswa & guru di Yogyakarta.
 
 [Bulan 7 - 9]   FASE 3: Integrasi Ekosistem Ekonomi UMKM
-                - Kurasi 25+ produk UMKM herbal bersertifikasi BPOM.
-                - Pembangunan sistem automated deep-linking affiliate.
+                - Kurasi 30+ produk UMKM herbal bersertifikasi BPOM & Halal.
+                - Peluncuran sistem automated deep-linking affiliate & dashboard analitik.
 
-[Bulan 10 - 12] FASE 4: Peluncuran Publik, Kemitraan Sekolah, & Skalabilitas
-                - Program sosialisasi ke 30 SMA/SMK di DI Yogyakarta & nasional.
-                - Skalasi server dan peluncuran modul edukasi lanjutan.
+[Bulan 10 - 12] FASE 4: Peluncuran Publik, Kemitraan Sekolah, & Scale-Up
+                - Sosialisasi ke 30 SMA/SMK mitra dan komunitas edukasi nasional.
+                - Perluasan katalog organ & peningkatan kemitraan industri herbal.
 ```
 
-### 4.3 Analisis Risiko & Strategi Mitigasi
+### 4.4 Analisis Risiko & Strategi Mitigasi Proaktif
 
 | Kategori Risiko | Potensi Risiko | Strategi Mitigasi Proaktif |
 | :--- | :--- | :--- |
-| **Akurasi Medis** | Misinformasi atau visualisasi berlebihan (*sensasionalisme*) | Menggandeng dewan penasihat medis (dokter & akademisi FK) untuk memvalidasi algoritma degradasi dan referensi ilmiah jurnal terindeks. |
-| **Kredibilitas Produk** | Produk UMKM tidak berstandar atau minim izin edar | Menerapkan seleksi ketat: hanya produk berizin edar BPOM RI dan Halal yang diizinkan masuk dalam katalog rekomendasi. |
-| **Performa Perangkat** | Lag pada ponsel dengan spesifikasi rendah | Menggunakan teknik Level of Detail (LoD) otomatis, pengoptimalan shader, dan opsi *low-graphics mode*. |
-| **Privasi Pengguna** | Kebocoran data kebiasaan pengguna | Tanpa kewajiban registrasi akun sensitif (*privacy by design*); simulasi berjalan sepenuhnya di sisi klien (*client-side*). |
+| **Akurasi Medis** | Misinformasi atau visualisasi berlebihan (*sensasionalisme*) | Menggandeng dewan penasihat medis (dokter & akademisi FK) untuk memvalidasi algoritma degradasi dan referensi jurnal terindeks Scopus/Sinta. |
+| **Kredibilitas Produk** | Produk UMKM tidak berstandar atau minim izin edar | Menerapkan seleksi ketat (*whitelist*): hanya produk berizin edar BPOM RI dan sertifikasi Halal yang diizinkan masuk dalam katalog rekomendasi. |
+| **Performa Perangkat** | Lag pada ponsel dengan spesifikasi rendah | Menggunakan Level of Detail (LoD) otomatis, pengoptimalan shader, serta opsi *low-graphics mode*. |
+| **Privasi Pengguna** | Kekhawatiran data kebiasaan pengguna | Mengusung arsitektur *privacy by design* tanpa kewajiban login data pribadi sensitif; seluruh simulasi berjalan lokal di peramban. |
 
 ---
 
@@ -205,7 +221,7 @@ Sesuai ketentuan etika dan kejujuran akademik kompetisi Ideathon JOINTS UGM 2026
 
 ## BAB 6. KESIMPULAN
 
-**AnatomiLab 3D** bukan sekadar media ajar anatomi digital, melainkan terobosan integratif yang mentransformasi rasa ingin tahu menjadi kesadaran kesehatan preventif yang konkret, serta menyalurkannya menjadi aksi ekonomi berdaya saing bagi UMKM Indonesia. Dengan menyatukan keunggulan teknologi grafis web modern, visualisasi dampak kebiasaan berbasis sains, dan mekanisme ekonomi berbasis afiliasi terkurasi, AnatomiLab 3D siap menjadi pelopor transformasi digital yang berdampak nyata bagi generasi muda dan bangsa.
+**AnatomiLab 3D** bukan sekadar media ajar anatomi digital, melainkan terobosan integratif yang mentransformasi rasa ingin tahu menjadi kesadaran kesehatan preventif yang konkret, serta menyalurkannya menjadi aksi ekonomi berdaya saing bagi UMKM Indonesia. Dengan menyatukan keunggulan teknologi grafis web modern, visualisasi dampak kebiasaan berbasis sains, model keberlanjutan mandiri tanpa beban biaya bagi sekolah, dan mekanisme ekonomi berbasis afiliasi terkurasi, AnatomiLab 3D siap menjadi pelopor transformasi digital yang berdampak nyata bagi generasi muda dan bangsa.
 
 ---
-*Lampiran Pendukung: Naskah Video Pitch 3 Menit & Kerangka Pitch Deck disajikan pada dokumen terpisah.*
+*Lampiran Pendukung: Naskah Video Pitch 3 Menit & Kerangka Pitch Deck disajikan pada berkas terpisah (PITCH_VIDEO_SCRIPT_DAN_DECK.md).*
