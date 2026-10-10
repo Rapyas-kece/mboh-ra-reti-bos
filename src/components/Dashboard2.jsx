@@ -15,6 +15,17 @@ import {
   ExternalLink,
   Check,
   Globe,
+  MapPin,
+  User,
+  Bone,
+  Microscope,
+  GraduationCap,
+  Shield,
+  Heart,
+  Smile,
+  Activity,
+  Wind,
+  Droplet,
 } from 'lucide-react'
 
 export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
@@ -196,13 +207,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                   className="w-full flex items-center justify-between px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left bg-transparent"
                 >
                   <div className="flex items-center gap-3.5">
-                    <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                      <img
-                        src="/assets/biodigital/icons/sb_region.png"
-                        alt="Region Icon"
-                        className="max-w-full max-h-full object-contain block"
-                      />
-                    </div>
+                    <MapPin className="w-5 h-5 text-[#5c768d] shrink-0 stroke-[1.8]" />
                     <span className="text-[14px] font-semibold text-[#14233c]">
                       Anatomy by Region
                     </span>
@@ -248,13 +253,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 onClick={() => handleSelectCategory('all-models')}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left bg-transparent"
               >
-                <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                  <img
-                    src="/assets/biodigital/icons/sb_system.png"
-                    alt="System Icon"
-                    className="max-w-full max-h-full object-contain block"
-                  />
-                </div>
+                <Layers className="w-5 h-5 text-[#5c768d] shrink-0 stroke-[1.8]" />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Anatomy by System
                 </span>
@@ -266,13 +265,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 onClick={() => handleSelectCategory('all-models')}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left bg-transparent"
               >
-                <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                  <img
-                    src="/assets/biodigital/icons/sb_complete.png"
-                    alt="Complete Anatomy Icon"
-                    className="max-w-full max-h-full object-contain block"
-                  />
-                </div>
+                <User className="w-5 h-5 text-[#5c768d] shrink-0 stroke-[1.8]" />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Complete Anatomy
                 </span>
@@ -284,13 +277,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 onClick={() => handleSelectCategory('all-models')}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left bg-transparent"
               >
-                <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                  <img
-                    src="/assets/biodigital/icons/sb_bony.png"
-                    alt="Bony Landmarks Icon"
-                    className="max-w-full max-h-full object-contain block"
-                  />
-                </div>
+                <Bone className="w-5 h-5 text-[#5c768d] shrink-0 stroke-[1.8]" />
                 <span className="text-[13.5px] font-semibold text-[#14233c] leading-tight">
                   Bony Landmarks, Origins...
                 </span>
@@ -302,13 +289,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 onClick={() => handleSelectCategory('all-models')}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left bg-transparent"
               >
-                <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                  <img
-                    src="/assets/biodigital/icons/sb_cross.png"
-                    alt="Cross Sections Icon"
-                    className="max-w-full max-h-full object-contain block"
-                  />
-                </div>
+                <Microscope className="w-5 h-5 text-[#5c768d] shrink-0 stroke-[1.8]" />
                 <span className="text-[13.5px] font-semibold text-[#14233c] leading-tight">
                   Cross Sections & Micro...
                 </span>
@@ -320,13 +301,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 onClick={() => handleSelectCategory('all-models')}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left bg-transparent"
               >
-                <div className="w-5 h-5 flex items-center justify-center shrink-0">
-                  <img
-                    src="/assets/biodigital/icons/sb_quizzes.png"
-                    alt="Anatomy Quizzes Icon"
-                    className="max-w-full max-h-full object-contain block"
-                  />
-                </div>
+                <GraduationCap className="w-5 h-5 text-[#5c768d] shrink-0 stroke-[1.8]" />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Anatomy Quizzes
                 </span>
@@ -349,10 +324,10 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 }}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left"
               >
-                <img
-                  src="/assets/biodigital/icons/sb_allergy.png"
-                  alt="Allergy Icon"
-                  className="w-5 h-5 object-contain block shrink-0"
+                <Shield
+                  className={`w-5 h-5 shrink-0 stroke-[1.8] ${
+                    selectedCategory === 'specialty:Allergy' ? 'text-[#0060c4]' : 'text-[#5c768d]'
+                  }`}
                 />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Allergy & Immunology
@@ -369,10 +344,10 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 }}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left"
               >
-                <img
-                  src="/assets/biodigital/icons/sb_cardio.png"
-                  alt="Cardiology Icon"
-                  className="w-5 h-5 object-contain block shrink-0"
+                <Heart
+                  className={`w-5 h-5 shrink-0 stroke-[1.8] ${
+                    selectedCategory === 'specialty:Cardiology' ? 'text-[#0060c4]' : 'text-[#5c768d]'
+                  }`}
                 />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Cardiology
@@ -389,10 +364,10 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 }}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left"
               >
-                <img
-                  src="/assets/biodigital/icons/sb_dental.png"
-                  alt="Dentistry Icon"
-                  className="w-5 h-5 object-contain block shrink-0"
+                <Smile
+                  className={`w-5 h-5 shrink-0 stroke-[1.8] ${
+                    selectedCategory === 'specialty:Dentistry' ? 'text-[#0060c4]' : 'text-[#5c768d]'
+                  }`}
                 />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Dentistry
@@ -409,7 +384,11 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 }}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left"
               >
-                <Layers className="w-5 h-5 text-[#5c768d] shrink-0" />
+                <Activity
+                  className={`w-5 h-5 shrink-0 stroke-[1.8] ${
+                    selectedCategory === 'specialty:Gastroenterology and Hepatology' ? 'text-[#0060c4]' : 'text-[#5c768d]'
+                  }`}
+                />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Gastroenterology
                 </span>
@@ -425,7 +404,11 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 }}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left"
               >
-                <Layers className="w-5 h-5 text-[#5c768d] shrink-0" />
+                <Wind
+                  className={`w-5 h-5 shrink-0 stroke-[1.8] ${
+                    selectedCategory === 'specialty:Pulmonology and Respiratory' ? 'text-[#0060c4]' : 'text-[#5c768d]'
+                  }`}
+                />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Pulmonology & Lungs
                 </span>
@@ -441,7 +424,11 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 }}
                 className="w-full flex items-center px-5 sm:px-6 py-2.5 gap-3.5 cursor-pointer hover:bg-slate-100/60 transition-colors border-0 outline-none text-left"
               >
-                <Layers className="w-5 h-5 text-[#5c768d] shrink-0" />
+                <Droplet
+                  className={`w-5 h-5 shrink-0 stroke-[1.8] ${
+                    selectedCategory === 'specialty:Urology and Nephrology' ? 'text-[#0060c4]' : 'text-[#5c768d]'
+                  }`}
+                />
                 <span className="text-[14px] font-semibold text-[#14233c]">
                   Urology & Nephrology
                 </span>
@@ -680,11 +667,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
                 >
                   {/* Search Sparkle Icon */}
                   <div className="pl-3.5 pr-2.5 flex items-center justify-center">
-                    <img
-                      src="/assets/biodigital/icons/search_sparkle.png"
-                      alt="Search Sparkle"
-                      className="w-4 h-4 sm:w-[18px] sm:h-[18px] block shrink-0"
-                    />
+                    <Sparkles className="w-4 h-4 sm:w-[18px] sm:h-[18px] text-[#0084ff] block shrink-0" />
                   </div>
 
                   {/* Input Text Field */}
