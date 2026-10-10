@@ -637,11 +637,11 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
         )}
 
         {/* =====================================================================
-            3. MAIN CONTENT AREA (Toolbar + Fluid Responsive Cards Grid)
+            3. MAIN CONTENT AREA (Full Right Panel Unified Scrolling)
             ===================================================================== */}
         <main
           style={{ backgroundColor: '#fffff7' }}
-          className="flex-1 flex flex-col overflow-hidden min-w-0"
+          className="flex-1 overflow-y-auto bio-scroll flex flex-col min-w-0"
         >
           {/* -----------------------------------------------------------------
               TOOLBAR CONTAINER (Semantic Header, Omnibox, Tabs)
@@ -884,7 +884,7 @@ export default function Dashboard2({ onBackToLanding, onNavigateToPreview }) {
           {/* -----------------------------------------------------------------
               CARDS GRID CONTAINER (Fluid Grid with Real Semantic Cards & Hover)
               ----------------------------------------------------------------- */}
-          <div className="flex-1 overflow-y-auto px-4 sm:px-8 lg:px-12 py-6 bio-scroll">
+          <div className="w-full px-4 sm:px-8 lg:px-12 py-6">
             {filteredModules.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-5 lg:gap-6 pb-12">
                 {filteredModules.map((item) => (
