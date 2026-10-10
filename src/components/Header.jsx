@@ -1,4 +1,4 @@
-export default function Header({ theme = 'dark', onNavigate }) {
+export default function Header({ theme = 'dark', onNavigate, onOpenMenu }) {
   const isWhite = theme === 'white'
 
   return (
@@ -79,21 +79,21 @@ export default function Header({ theme = 'dark', onNavigate }) {
           </a>
         </div>
 
-
         {/* Menu Toggle */}
         <div className="flex justify-end gap-[45rem]">
           <button
             type="button"
-            className="pointer-events-auto text-[18rem] leading-[120%]"
+            onClick={onOpenMenu}
+            className="pointer-events-auto text-[18rem] leading-[120%] cursor-pointer group"
             aria-label="Open menu"
           >
-            <span className="flex h-[36px] w-[84px]">
+            <span className="flex h-[36px] w-[84px] transition-transform duration-200 group-hover:scale-105">
               {/* 'M' Segment */}
               <span
-                className={`flex flex-[0_0_50%] items-center justify-center pl-[4px] text-[16px] leading-[16px] rounded-l-full border transition-colors duration-300 ${
+                className={`flex flex-[0_0_50%] items-center justify-center pl-[4px] text-[16px] leading-[16px] font-medium rounded-l-full border transition-colors duration-300 ${
                   isWhite
-                    ? 'border-[#0f0f0f] text-[#0f0f0f]'
-                    : 'border-white text-white'
+                    ? 'border-[#0f0f0f] text-[#0f0f0f] group-hover:bg-[#0f0f0f] group-hover:text-white'
+                    : 'border-white text-white group-hover:bg-white group-hover:text-[#0f0f0f]'
                 }`}
               >
                 M

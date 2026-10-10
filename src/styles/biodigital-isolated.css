@@ -1,0 +1,51 @@
+/* =========================================================================
+   BioDigital Human Isolated Scoped CSS
+   Immune to Makepill vw fluid sizing and Neue Haas Grotesk typography
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+#biodigital-root {
+  all: initial;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  color: #0f172a !important;
+  background-color: #fffff7 !important;
+  box-sizing: border-box !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#biodigital-root *,
+#biodigital-root *::before,
+#biodigital-root *::after {
+  box-sizing: border-box !important;
+  font-family: inherit;
+}
+
+/* Custom Scrollbars matching BioDigital target */
+#biodigital-root .bio-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+#biodigital-root .bio-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#biodigital-root .bio-scroll::-webkit-scrollbar-thumb {
+  background: #958d84;
+  border-radius: 4px;
+}
+
+#biodigital-root .bio-scroll::-webkit-scrollbar-thumb:hover {
+  background: #7a736a;
+}

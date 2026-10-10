@@ -66,19 +66,19 @@ export default function Hero({ heroRef, outerRef, bgRef, overlayRef }) {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-[1] min-h-[100svh] flex flex-col items-center justify-center text-center pt-[calc(67rem+23vh)] lg:pt-[calc(115rem+23vh)] pb-[120rem] lg:pb-[160rem]">
+        <div className="relative z-[1] min-h-[100svh] flex flex-col items-center justify-center text-center px-[20rem] lg:px-[48rem] pt-[calc(67rem+23vh)] lg:pt-[calc(115rem+23vh)] pb-[120rem] lg:pb-[160rem]">
           {/* Headline */}
-          <div className="title__wrapper overflow-hidden">
+          <div className="title__wrapper overflow-hidden max-w-[1300rem] mx-auto">
             <h1
               ref={titleRef}
-              className="m-0 font-normal [font-kerning:none] text-[45rem] lg:text-[128rem] leading-[130%] lg:leading-[120%] will-change-[transform,opacity]"
+              className="m-0 font-normal [font-kerning:none] text-[38rem] md:text-[54rem] lg:text-[92rem] xl:text-[108rem] 2xl:text-[120rem] leading-[125%] lg:leading-[115%] will-change-[transform,opacity]"
             >
               <span className="markdown-content unwrapped">
-                A new kind of
+                Melihat sains di balik
                 <br />
-                venture{' '}
+                setiap detak{' '}
                 <span className="inline-block cursor-pointer relative group">
-                  studio
+                  organ
                   <span className="text-[#deff00] group-hover:underline">*</span>.
                 </span>
               </span>
@@ -88,12 +88,12 @@ export default function Hero({ heroRef, outerRef, bgRef, overlayRef }) {
           {/* Tagline */}
           <div
             ref={taglineRef}
-            className="mt-[32rem] text-[20rem] 2xl:text-[28rem] leading-[140%] text-white/75 will-change-[transform,opacity]"
+            className="mt-[32rem] text-[18rem] md:text-[20rem] lg:text-[22rem] 2xl:text-[26rem] leading-[150%] text-white/75 max-w-[850rem] mx-auto will-change-[transform,opacity]"
           >
             <p className="m-0">
-              We architect your company&apos;s competitive edge
-              <br />
-              through strategy, design, and technology.
+              Memahami tubuh bukan sekadar menghafal nama jaringan,
+              <br className="hidden sm:inline" />
+              {' '}melainkan melihat langsung bagaimana gaya hidup mengubah fisiologi biologis kita.
             </p>
           </div>
         </div>

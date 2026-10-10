@@ -9,6 +9,7 @@ export default function SectionPill({
   paragraphs,
   ctaText,
   ctaLink,
+  onCtaClick,
   videoWebm,
   videoMp4,
 }) {
@@ -209,7 +210,13 @@ export default function SectionPill({
               className="mt-[52rem] lg:mt-[68rem] flex justify-center lg:justify-start will-change-transform"
             >
               <a
-                href={ctaLink}
+                href={ctaLink || '#'}
+                onClick={(e) => {
+                  if (onCtaClick) {
+                    e.preventDefault()
+                    onCtaClick(e)
+                  }
+                }}
                 className="group inline-block no-underline cursor-pointer"
               >
                 <span

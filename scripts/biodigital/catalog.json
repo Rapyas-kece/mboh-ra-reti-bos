@@ -1,0 +1,2048 @@
+[
+  {
+    "index": 1,
+    "id": "Condition.content.production.maleAdult.abdominal_aorta_guided.json",
+    "title": "Abdominal Aorta",
+    "suggestedFilename": "abdominal-aorta.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/ae3f719d-8727-46a7-b319-096c07167cee/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/abdominal_aorta_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Abdomen",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 2,
+    "id": "Condition.content.production.maleAdult.abdominal_wall_guided.json",
+    "title": "Abdominal Wall",
+    "suggestedFilename": "abdominal-wall.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/04e83e5e-c44f-4d88-bd28-6b598f321d47/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/abdominal_wall_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Abdomen",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 3,
+    "id": "Condition.content.production.maleAdult.anterior_compartment_of_leg_guided.json",
+    "title": "Anterior Compartment of Leg",
+    "suggestedFilename": "anterior-compartment-of-leg.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/d2df7363-3722-4747-bd5c-02b27da71d29/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/anterior_compartment_of_leg_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 4,
+    "id": "Condition.content.production.maleAdult.anterior_compartment_of_thigh_guided.json",
+    "title": "Anterior Compartment of Thigh",
+    "suggestedFilename": "anterior-compartment-of-thigh.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a34c3c04-4c8e-448e-91a8-23e2f26a10de/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/anterior_compartment_of_thigh_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 5,
+    "id": "Condition.content.production.maleAdult.anterior_thoracic_wall_guided.json",
+    "title": "Anterior Thoracic Wall",
+    "suggestedFilename": "anterior-thoracic-wall.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/d742a33c-f4e9-4e66-92a0-c4068263372c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/anterior_thoracic_wall_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 6,
+    "id": "Condition.content.production.maleAdult.anterior_triangle_of_neck_guided.json",
+    "title": "Anterior Triangle of Neck",
+    "suggestedFilename": "anterior-triangle-of-neck.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/2aa7bee9-2953-4435-bd21-23dc3d7d4455/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/anterior_triangle_of_neck_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 7,
+    "id": "Condition.content.production.maleAdult.male_region_back_20.json",
+    "title": "Back",
+    "suggestedFilename": "back.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/603ef757-547c-4ea9-a6b7-05a54639460b/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_back_20.json",
+    "description": "The back is the posterior region of the body that extends from the neck to the superior border of the pelvis. The back contains the vertebral column and spinal cord, as well as the broad muscles that move the upper limbs and maintain posture.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Back",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 8,
+    "id": "Condition.content.production.maleAdult.blood_supply_of_brain_guided.json",
+    "title": "Blood Supply of Brain",
+    "suggestedFilename": "blood-supply-of-brain.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/e626dbf8-baea-4fe3-aff1-0baaf04bef66/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/blood_supply_of_brain_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 9,
+    "id": "Condition.content.production.maleAdult.brachial_plexus_guided.json",
+    "title": "Brachial Plexus",
+    "suggestedFilename": "brachial-plexus.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/20bca436-4387-465e-9273-26daab427367/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/brachial_plexus_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 10,
+    "id": "Condition.content.production.maleAdult.male_region_brain_20.json",
+    "title": "Brain",
+    "suggestedFilename": "brain.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/298286aa-a126-4ea2-a902-3b6716536dae/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_brain_20.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 11,
+    "id": "Condition.content.production.maleAdult.cardiac_veins_guided.json",
+    "title": "Cardiac Veins",
+    "suggestedFilename": "cardiac-veins.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/382f7380-7bc0-4322-ba49-803a152cb43d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/cardiac_veins_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 12,
+    "id": "Condition.content.production.maleAdult.circle_of_willis_guided.json",
+    "title": "Circle of Willis",
+    "suggestedFilename": "circle-of-willis.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/373820ac-4403-4c51-ae74-79c49109efca/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/circle_of_willis_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 13,
+    "id": "Condition.content.production.maleAdult.colorectal_anatomy_terms.json",
+    "title": "Colorectal Anatomy",
+    "suggestedFilename": "colorectal-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/6985b730-06e2-44c8-bce4-23b4ff1a3d01/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/colorectal_anatomy_terms.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Disease",
+      "Gross Anatomy",
+      "male",
+      "Guided Anatomy",
+      "regional",
+      "Abdomen",
+      "tour",
+      "Anatomy and Physiology",
+      "Gastroenterology and Hepatology"
+    ]
+  },
+  {
+    "index": 14,
+    "id": "Condition.content.production.maleAdult.contents_of_carotid_sheath_guided.json",
+    "title": "Contents of Carotid Sheath",
+    "suggestedFilename": "contents-of-carotid-sheath.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c3541b60-afaf-4705-9e03-a6106b606749/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/contents_of_carotid_sheath_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 15,
+    "id": "Condition.content.production.maleAdult.contents_of_infratemporal_fossa_guided.json",
+    "title": "Contents of Infratemporal Fossa",
+    "suggestedFilename": "contents-of-infratemporal-fossa.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/3670c103-41ee-4d7b-90b9-bfcedc7df107/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/contents_of_infratemporal_fossa_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 16,
+    "id": "Condition.content.production.maleAdult.coronary_arteries_guided.json",
+    "title": "Coronary Arteries ",
+    "suggestedFilename": "coronary-arteries.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/be8fad96-c69d-480e-a313-9ac1a1783b4d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/coronary_arteries_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 17,
+    "id": "Condition.content.production.maleAdult.cranial_fossae_guided.json",
+    "title": "Cranial Fossae",
+    "suggestedFilename": "cranial-fossae.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/dbb406f4-78d2-436c-8349-6736b94fd397/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/cranial_fossae_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 18,
+    "id": "Condition.content.production.maleAdult.cranial_meninges_guided.json",
+    "title": "Cranial Meninges",
+    "suggestedFilename": "cranial-meninges.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a259e5b3-f30c-41b2-8432-881abbf91374/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/cranial_meninges_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 19,
+    "id": "Condition.content.production.maleAdult.deep_layer_guided.json",
+    "title": "Deep Layer of the Back",
+    "suggestedFilename": "deep-layer-of-the-back.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/def018bd-feab-47f2-ad59-7f152f41767a/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/deep_layer_guided.json",
+    "description": "The back is the posterior region of the body that extends from the neck to the superior border of the pelvis. The back contains the vertebral column and spinal cord, as well as the broad muscles that move the upper limbs and maintain posture.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Back",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 20,
+    "id": "Condition.content.production.maleAdult.diaphragm_guided.json",
+    "title": "Diaphragm",
+    "suggestedFilename": "diaphragm.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/4f22a86a-d543-4ee7-9db8-3f70694b547d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/diaphragm_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Abdomen",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 21,
+    "id": "Condition.content.production.maleAdult.dorsum_of_foot_guided.json",
+    "title": "Dorsum of Foot",
+    "suggestedFilename": "dorsum-of-foot.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/fa8df394-9cae-4ef8-bbb7-69402a0f135e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/dorsum_of_foot_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 22,
+    "id": "Condition.content.production.maleAdult.dural_infoldings_guided.json",
+    "title": "Dural Infoldings",
+    "suggestedFilename": "dural-infoldings.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/91805c55-63bd-4138-9aa6-fefbc327268b/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/dural_infoldings_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 23,
+    "id": "Condition.content.production.maleAdult.dural_venous_sinuses_guided.json",
+    "title": "Dural Venous Sinuses",
+    "suggestedFilename": "dural-venous-sinuses.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/71f4dcb3-b1ab-44aa-9abf-5ab0f00d8d6c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/dural_venous_sinuses_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 24,
+    "id": "Condition.content.production.maleAdult.external_carotid_artery_branches_guided.json",
+    "title": "External Carotid Artery Branches",
+    "suggestedFilename": "external-carotid-artery-branches.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/46d6e4f8-0446-4bad-8756-0626263b7604/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/external_carotid_artery_branches_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 25,
+    "id": "Condition.content.production.maleAdult.eyeAnatomyTour.json",
+    "title": "Eye Anatomy",
+    "suggestedFilename": "eye-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a6db6a86-2688-4e85-8273-82ac8ce9f29d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/eyeAnatomyTour.json",
+    "description": "Some eye problems are minor and fleeting. But some lead to a permanent loss of vision. Common eye problems include: Cataracts - clouded lenses; Glaucoma - damage to the optic nerve from too much pressure in the eye; Retinal disorders - problems with the nerve layer at the back of the eye; Conjunctivitis - an infection also known as pinkeye. Your best defense is to have regular checkups, because eye diseases do not always have symptoms. Early detection and treatment could prevent vision loss. See an eye care professional right away if you have a sudden change in vision or everything looks dim or if you see flashes of light. Other symptoms that need quick attention are pain, double vision, fluid coming from the eye and inflammation.(source: NIH Medline Plus)",
+    "tags": [
+      "Eyes and Vision",
+      "Gross Anatomy",
+      "male",
+      "Guided Anatomy",
+      "Basic",
+      "Anatomy",
+      "regional",
+      "tour",
+      "Anatomy and Physiology",
+      "Ophthalmology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 26,
+    "id": "Condition.content.production.maleAdult.eyelid_and_lacrimal_apparatus_guided.json",
+    "title": "Eyelid and Lacrimal Apparatus",
+    "suggestedFilename": "eyelid-and-lacrimal-apparatus.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/27dd2f22-119c-41f0-919e-92e9c2dd300e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/eyelid_and_lacrimal_apparatus_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 27,
+    "id": "Condition.content.production.maleAdult.face_guided.json",
+    "title": "Face",
+    "suggestedFilename": "face.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/476632e5-bfd6-4ff6-8cf7-dfa0a4204c8a/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/face_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 28,
+    "id": "Condition.content.production.femaleAdult.female_region_abdomen_20.json",
+    "title": "Female Abdomen",
+    "suggestedFilename": "female-abdomen.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0159668c-fcc4-4bb9-9f67-e0ada8bed363/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/femaleAdult/female_region_abdomen_20.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "female",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Abdomen",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 29,
+    "id": "Condition.content.production.maleAdult.female_external_genitalia_and_perineum_guided.json",
+    "title": "Female External Genitalia and Perineum",
+    "suggestedFilename": "female-external-genitalia-and-perineum.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/6401e7b4-6004-4f9b-ac18-09405e33e441/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/female_external_genitalia_and_perineum_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 30,
+    "id": "Condition.content.production.maleAdult.female_pelvic_cavity_guided.json",
+    "title": "Female Pelvic Cavity",
+    "suggestedFilename": "female-pelvic-cavity.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/9a080c7a-8e30-48a4-b980-7b8d920bb99c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/female_pelvic_cavity_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 31,
+    "id": "Condition.content.production.femaleAdult.female_region_pelvis_20.json",
+    "title": "Female Pelvis",
+    "suggestedFilename": "female-pelvis.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/4ec89c48-126f-414e-bcc1-b408fa21b1c5/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/femaleAdult/female_region_pelvis_20.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "female",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 32,
+    "id": "Condition.content.production.femaleAdult.female_region_thorax_20.json",
+    "title": "Female Thorax",
+    "suggestedFilename": "female-thorax.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/b95568b1-895d-4171-9081-c5db4ad4233a/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/femaleAdult/female_region_thorax_20.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "female",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Thorax",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 33,
+    "id": "Condition.content.production.maleAdult.female_urogenital_triangle_guided.json",
+    "title": "Female Urogenital Triangle",
+    "suggestedFilename": "female-urogenital-triangle.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/00ecb340-dee5-46e0-942e-334a9dfdc02c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/female_urogenital_triangle_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 34,
+    "id": "Condition.content.production.maleAdult.femoral_triangle_guided.json",
+    "title": "Femoral Triangle",
+    "suggestedFilename": "femoral-triangle.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/b2c08d25-b8e9-4ba9-8827-39f3685e7f08/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/femoral_triangle_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 35,
+    "id": "Condition.content.production.maleAdult.gi_viscera_guided.json",
+    "title": "GI Viscera",
+    "suggestedFilename": "gi-viscera.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/996ba3b8-bce1-4cde-bd11-9f7d284fa5f9/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/gi_viscera_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "regional",
+      "Abdomen",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 36,
+    "id": "Condition.content.production.maleAdult.neurovasculature_guided.json",
+    "title": "Gluteal Neurovasculature",
+    "suggestedFilename": "gluteal-neurovasculature.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/d2ced003-851e-444f-a99f-4ac918a622b7/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/neurovasculature_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 37,
+    "id": "Condition.content.production.maleAdult.gluteal_region_guided.json",
+    "title": "Gluteal Region",
+    "suggestedFilename": "gluteal-region.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0ecc3439-e8d1-4402-b038-bc6f4e4ded96/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/gluteal_region_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 38,
+    "id": "Condition.content.production.maleAdult.male_region_head_neck_20.json",
+    "title": "Head and Neck",
+    "suggestedFilename": "head-and-neck.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c2d338d5-55b4-4880-b8c9-d00f0284c9ad/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_head_neck_20.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 39,
+    "id": "Condition.content.production.maleAdult.heart_guided.json",
+    "title": "Heart",
+    "suggestedFilename": "heart.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/31a05288-a2a8-4191-bcb3-41b7c7673b56/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/heart_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 40,
+    "id": "Condition.content.production.maleAdult.heart_internal_anatomy_guided.json",
+    "title": "Heart Internal Anatomy",
+    "suggestedFilename": "heart-internal-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/9b2b2357-cf6f-4de0-b543-af31dc6ed74e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/heart_internal_anatomy_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 41,
+    "id": "Condition.content.production.maleAdult.intercostal_space_guided.json",
+    "title": "Intercostal Space",
+    "suggestedFilename": "intercostal-space.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/36ed6b82-7db8-4dc0-b4fb-763bdb1c3a72/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/intercostal_space_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 42,
+    "id": "Condition.content.production.maleAdult.intermediate_layer_guided.json",
+    "title": "Intermediate Layer of the Back",
+    "suggestedFilename": "intermediate-layer-of-the-back.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a031f6d7-679d-4c5a-a35a-673597426951/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/intermediate_layer_guided.json",
+    "description": "The back is the posterior region of the body that extends from the neck to the superior border of the pelvis. The back contains the vertebral column and spinal cord, as well as the broad muscles that move the upper limbs and maintain posture.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Back",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 43,
+    "id": "Condition.content.production.maleAdult.knee_joint_guided.json",
+    "title": "Knee Joint",
+    "suggestedFilename": "knee-joint.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/987f2b41-ec8f-4c47-92aa-41daf1f3892a/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/knee_joint_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 44,
+    "id": "Condition.content.production.maleAdult.larynx_guided.json",
+    "title": "Larynx",
+    "suggestedFilename": "larynx.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/81b754af-b753-4029-800c-5c968ab0136f/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/larynx_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 45,
+    "id": "Condition.content.production.maleAdult.lateral_compartment_of_leg_guided.json",
+    "title": "Lateral Compartment of Leg",
+    "suggestedFilename": "lateral-compartment-of-leg.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/e408ec87-bf14-4199-a7a1-48eda5ddc0a8/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/lateral_compartment_of_leg_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 46,
+    "id": "Condition.content.production.maleAdult.liver_anatomy.json",
+    "title": "Liver Anatomy",
+    "suggestedFilename": "liver-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/bf863d54-8ee8-4a90-88b4-c8fc46eba2c6/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/liver_anatomy.json",
+    "description": "bd_liver_anatomy",
+    "tags": [
+      "Gross Anatomy",
+      "tour",
+      "Premium",
+      "animated",
+      "male",
+      "Guided Anatomy",
+      "Digestive System",
+      "Animated",
+      "Anatomy",
+      "Abdomen",
+      "regional",
+      "Tour",
+      "Anatomy and Physiology",
+      "Gastroenterology and Hepatology"
+    ]
+  },
+  {
+    "index": 47,
+    "id": "Condition.content.production.maleAdult.male_region_lower_limb_20.json",
+    "title": "Lower Limb",
+    "suggestedFilename": "lower-limb.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0b217f2d-588f-4d3b-9ab9-0cd91a17ee57/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_lower_limb_20.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Lower Limb",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 48,
+    "id": "Condition.content.production.maleAdult.lumbar_plexus_guided.json",
+    "title": "Lumbar Plexus",
+    "suggestedFilename": "lumbar-plexus.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/6bff4f26-9530-4f74-a89d-d7b2a7a981e4/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/lumbar_plexus_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Back",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 49,
+    "id": "Condition.content.production.maleAdult.lungs_guided.json",
+    "title": "Lungs",
+    "suggestedFilename": "lungs.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c8e2227d-4c21-446f-9336-98137fad1961/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/lungs_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 50,
+    "id": "Condition.content.production.maleAdult.major_structures_of_the_cns_guided.json",
+    "title": "Major Structures of the CNS",
+    "suggestedFilename": "major-structures-of-the-cns.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a515e7ec-35d6-4963-8ccc-6015fcde1430/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/major_structures_of_the_cns_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 51,
+    "id": "Condition.content.production.maleAdult.male_region_abdomen_20.json",
+    "title": "Male Abdomen",
+    "suggestedFilename": "male-abdomen.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/e2de6163-96fb-45da-9dd5-3466668aa8cf/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_abdomen_20.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Abdomen",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 52,
+    "id": "Condition.content.production.maleAdult.bladder_anatomy_terms.json",
+    "title": "Male Bladder and Related Anatomy",
+    "suggestedFilename": "male-bladder-and-related-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/df2443e0-49d8-486a-93f4-9bcdb93e4604/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/bladder_anatomy_terms.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Urology and Nephrology",
+      "Disease",
+      "Gross Anatomy",
+      "male",
+      "Guided Anatomy",
+      "regional",
+      "tour",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 53,
+    "id": "Condition.content.production.maleAdult.male_external_genitalia_and_perineum_guided.json",
+    "title": "Male External Genitalia and Perineum",
+    "suggestedFilename": "male-external-genitalia-and-perineum.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c3530023-e093-4589-bb2f-343ab6f7013d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_external_genitalia_and_perineum_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 54,
+    "id": "Condition.content.production.maleAdult.male_pelvic_cavity_guided.json",
+    "title": "Male Pelvic Cavity",
+    "suggestedFilename": "male-pelvic-cavity.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/76c1bdc4-69eb-4d59-98d1-90a8ea70c29f/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_pelvic_cavity_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 55,
+    "id": "Condition.content.production.maleAdult.male_region_pelvis_20.json",
+    "title": "Male Pelvis",
+    "suggestedFilename": "male-pelvis.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c63f6c01-de9b-4aec-95b2-2f09a8a33b5c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_pelvis_20.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 56,
+    "id": "Condition.content.production.maleAdult.male_region_thorax_20.json",
+    "title": "Male Thorax",
+    "suggestedFilename": "male-thorax.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0fb21134-04fc-4dc7-85e8-8f56ac0d876c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_thorax_20.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Thorax",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 57,
+    "id": "Condition.content.production.maleAdult.male_urogenital_triangle_guided.json",
+    "title": "Male Urogenital Triangle",
+    "suggestedFilename": "male-urogenital-triangle.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/233a3fdf-1100-429f-a8a5-66d9e9cb7dec/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_urogenital_triangle_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 58,
+    "id": "Condition.content.production.maleAdult.maxillary_artery_branches_in_itf_guided.json",
+    "title": "Maxillary Artery Branches in ITF",
+    "suggestedFilename": "maxillary-artery-branches-in-itf.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/cc682b8e-fe2c-48d7-98ee-d63d39826c6d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/maxillary_artery_branches_in_itf_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 59,
+    "id": "Condition.content.production.maleAdult.medial_compartment_of_thigh_guided.json",
+    "title": "Medial Compartment of Thigh",
+    "suggestedFilename": "medial-compartment-of-thigh.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/eb479469-7a62-4e51-bbf1-09b24a4e0fcf/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/medial_compartment_of_thigh_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 60,
+    "id": "Condition.content.production.maleAdult.mediastinum_guided.json",
+    "title": "Mediastinum",
+    "suggestedFilename": "mediastinum.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/3a733354-be9a-4dbb-8d92-fa28793e9f00/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/mediastinum_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 61,
+    "id": "Condition.content.production.maleAdult.muscles_of_facial_expression_guided.json",
+    "title": "Muscles of Facial Expression",
+    "suggestedFilename": "muscles-of-facial-expression.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0581c4d1-f285-4332-a5ba-ef56f35b8d8c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/muscles_of_facial_expression_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 62,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_anatomical_snuffbox_guided.json",
+    "title": "Musculature of the Anatomical Snuffbox",
+    "suggestedFilename": "musculature-of-the-anatomical-snuffbox.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/6967fb4c-993d-49d6-92bf-92f537b5086f/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_anatomical_snuffbox_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 63,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_antecubital_fossa_guided.json",
+    "title": "Musculature of the Antecubital Fossa",
+    "suggestedFilename": "musculature-of-the-antecubital-fossa.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/390f848e-8bea-4c43-9692-fda6016a7027/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_antecubital_fossa_guided.json",
+    "description": "The upper limbs are symmetrical, appendicular structures that are attached to the thorax at the shoulder joint. They are characterized by their mobility and dexterity.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 64,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_anterior_arm_guided.json",
+    "title": "Musculature of the Anterior Arm",
+    "suggestedFilename": "musculature-of-the-anterior-arm.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/e60f8112-66f6-4115-aebf-0441cae1e39d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_anterior_arm_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 65,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_axila_guided.json",
+    "title": "Musculature of the Axila",
+    "suggestedFilename": "musculature-of-the-axila.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a9206522-6eeb-4744-9a0d-e43fc674c1d6/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_axila_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 66,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_forearm_and_hand_guided.json",
+    "title": "Musculature of the Forearm and Hand",
+    "suggestedFilename": "musculature-of-the-forearm-and-hand.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/41c8231a-1edf-4cec-8d70-252fcbda65c6/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_forearm_and_hand_guided.json",
+    "description": "The upper limbs are symmetrical, appendicular structures that are attached to the thorax at the shoulder joint. They are characterized by their mobility and dexterity.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 67,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_posterior_arm_guided.json",
+    "title": "Musculature of the Posterior Arm",
+    "suggestedFilename": "musculature-of-the-posterior-arm.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/6a9054e1-14a8-43be-a0dd-1ed0d5249526/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_posterior_arm_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 68,
+    "id": "Condition.content.production.maleAdult.musculature_of_the_scapular_region_guided.json",
+    "title": "Musculature of the Scapular Region",
+    "suggestedFilename": "musculature-of-the-scapular-region.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/01420aaa-74a5-4bd6-9151-eb8c94f4deac/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/musculature_of_the_scapular_region_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 69,
+    "id": "Condition.content.production.maleAdult.nerves_of_pelvis_guided.json",
+    "title": "Nerves of Pelvis",
+    "suggestedFilename": "nerves-of-pelvis.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/44111f58-0f6a-44ff-ba6a-76f005835695/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/nerves_of_pelvis_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 70,
+    "id": "Condition.content.production.maleAdult.nerves_of_pharynx_guided.json",
+    "title": "Nerves of Pharynx",
+    "suggestedFilename": "nerves-of-pharynx.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/32cc97cb-9145-4fea-b096-e17339a77a60/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/nerves_of_pharynx_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 71,
+    "id": "Condition.content.production.maleAdult.neurovasculature_back_guided.json",
+    "title": "Neurovasculature of the Back",
+    "suggestedFilename": "neurovasculature-of-the-back.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0ba4b8ab-8f2c-4afc-b9dc-b13e384aa52c/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/neurovasculature_back_guided.json",
+    "description": "The back is the posterior region of the body that extends from the neck to the superior border of the pelvis. The back contains the vertebral column and spinal cord, as well as the broad muscles that move the upper limbs and maintain posture.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Back",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 72,
+    "id": "Condition.content.production.maleAdult.neurovasculature_lower_limb_guided.json",
+    "title": "Neurovasculature of the Thigh and Hip",
+    "suggestedFilename": "neurovasculature-of-the-thigh-and-hip.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/8a83eb5f-5585-4ec0-a400-9c66d31f4d8e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/neurovasculature_lower_limb_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 73,
+    "id": "Condition.content.production.maleAdult.beating_heart_02.json",
+    "title": "Normal Heart Beat",
+    "suggestedFilename": "normal-heart-beat.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/b00d00f9-4e61-4acf-b38c-9d36153d593b/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/beating_heart_02.json",
+    "description": "",
+    "tags": [
+      "Blood, Heart and Circulation",
+      "Gross Anatomy",
+      "male",
+      "animated",
+      "Cardiology",
+      "Basic",
+      "Anatomy",
+      "regional",
+      "Thorax",
+      "Physiology",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 74,
+    "id": "Condition.content.production.maleAdult.nose_and_nasal_cavity_guided.json",
+    "title": "Nose and Nasal Cavity",
+    "suggestedFilename": "nose-and-nasal-cavity.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/5369ec3a-b756-4143-9510-8aa58bdb969f/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/nose_and_nasal_cavity_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 75,
+    "id": "Condition.content.production.maleAdult.oral_region_guided.json",
+    "title": "Oral Region",
+    "suggestedFilename": "oral-region.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a2869b9d-b622-4403-be53-06c15218d07e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/oral_region_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 76,
+    "id": "Condition.content.production.maleAdult.orbit_guided.json",
+    "title": "Orbit",
+    "suggestedFilename": "orbit.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/94655509-3180-4155-8bec-0fa0455d7fe2/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/orbit_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 77,
+    "id": "Condition.content.production.maleAdult.parotid_region_guided.json",
+    "title": "Parotid Region",
+    "suggestedFilename": "parotid-region.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/b89bc846-78b4-4872-8a6d-b3cb99690578/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/parotid_region_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 78,
+    "id": "Condition.content.production.maleAdult.pectoral_region_guided.json",
+    "title": "Pectoral Region",
+    "suggestedFilename": "pectoral-region.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/ee35e7f2-63e9-4b8a-b7c3-f50cacf5c48e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/pectoral_region_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 79,
+    "id": "Condition.content.production.maleAdult.pelvic_diaphragm_guided.json",
+    "title": "Pelvic Diaphragm",
+    "suggestedFilename": "pelvic-diaphragm.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/aaaa5b8c-6ba3-4aba-833c-15e89cc6dead/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/pelvic_diaphragm_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 80,
+    "id": "Condition.content.production.maleAdult.pharynx_guided.json",
+    "title": "Pharynx",
+    "suggestedFilename": "pharynx.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/87ef0445-2307-4d60-be34-f517049806c3/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/pharynx_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 81,
+    "id": "Condition.content.production.maleAdult.pleura_and_pleural_cavities_guided.json",
+    "title": "Pleura and Pleural Cavities",
+    "suggestedFilename": "pleura-and-pleural-cavities.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c8e2227d-4c21-446f-9336-98137fad1961/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/pleura_and_pleural_cavities_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 82,
+    "id": "Condition.content.production.maleAdult.popliteal_fossa_guided.json",
+    "title": "Popliteal Fossa",
+    "suggestedFilename": "popliteal-fossa.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a15e7147-f1f5-4906-92e2-e1d7d0e64321/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/popliteal_fossa_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 83,
+    "id": "Condition.content.production.maleAdult.posterior_abdominal_viscera_guided.json",
+    "title": "Posterior Abdominal Viscera",
+    "suggestedFilename": "posterior-abdominal-viscera.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/c1687819-113e-4476-836f-283dffc6aad7/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/posterior_abdominal_viscera_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Abdomen",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 84,
+    "id": "Condition.content.production.maleAdult.posterior_abdominal_wall_guided.json",
+    "title": "Posterior Abdominal Wall",
+    "suggestedFilename": "posterior-abdominal-wall.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/a0ed1ad1-6f4a-4321-96c7-f70f05acde34/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/posterior_abdominal_wall_guided.json",
+    "description": "The abdomen is the region of the trunk between the thorax and pelvis. It is bounded by muscles and contains most of the gastrointestinal organs, such as the stomach, liver, and large and small intestines.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Abdomen",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 85,
+    "id": "Condition.content.production.maleAdult.posterior_compartment_of_thigh_guided.json",
+    "title": "Posterior Compartment of Thigh",
+    "suggestedFilename": "posterior-compartment-of-thigh.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/ed5b801d-19e8-41ab-9d4d-e1b63614d930/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/posterior_compartment_of_thigh_guided.json",
+    "description": "The lower limbs are symmetrical, appendicular structures that are attached to the pelvis at the hip joint. They provide support and stability for the body, especially during locomotion.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 86,
+    "id": "Condition.content.production.maleAdult.posterior_leg_guided.json",
+    "title": "Posterior Leg",
+    "suggestedFilename": "posterior-leg.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/51cfe6c1-0c33-4812-8676-8e323edb54a1/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/posterior_leg_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 87,
+    "id": "Condition.content.production.maleAdult.posterior_mediastinum_guided.json",
+    "title": "Posterior Mediastinum",
+    "suggestedFilename": "posterior-mediastinum.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/e686a03c-272b-4225-9b3c-5482d7dce59e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/posterior_mediastinum_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 88,
+    "id": "Condition.content.production.maleAdult.posterior_triangle_of_neck_guided.json",
+    "title": "Posterior Triangle of Neck",
+    "suggestedFilename": "posterior-triangle-of-neck.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/cd346848-6f2b-43b3-a07a-dec22fa3d325/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/posterior_triangle_of_neck_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 89,
+    "id": "Condition.content.production.maleAdult.prevertebral_region_guided.json",
+    "title": "Prevertebral Region",
+    "suggestedFilename": "prevertebral-region.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/ae284aa8-989c-4b3f-9b9e-46c4de550718/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/prevertebral_region_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 90,
+    "id": "Condition.content.production.maleAdult.prostate_anatomy_terms.json",
+    "title": "Prostate and Related Anatomy",
+    "suggestedFilename": "prostate-and-related-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/d9905e96-6f7a-4f09-908f-89e79f8715e7/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/prostate_anatomy_terms.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Urology and Nephrology",
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Guided Anatomy",
+      "Urology",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis",
+      "Male Reproductive System"
+    ]
+  },
+  {
+    "index": 91,
+    "id": "Condition.content.production.maleAdult.root_of_neck_guided.json",
+    "title": "Root of Neck",
+    "suggestedFilename": "root-of-neck.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/9da8aece-27df-4494-8b61-31d9dd3811cb/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/root_of_neck_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 92,
+    "id": "Condition.content.production.maleAdult.scalp_guided.json",
+    "title": "Scalp",
+    "suggestedFilename": "scalp.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/fd7e9e81-5426-4995-9fd8-6d9a96000209/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/scalp_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 93,
+    "id": "Condition.content.production.maleAdult.sciatic_nerve.json",
+    "title": "Sciatic Nerve",
+    "suggestedFilename": "sciatic-nerve.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/22a6e618-e118-4112-9452-5831e076db65/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/sciatic_nerve.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "Back",
+      "Lower Limb",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 94,
+    "id": "Condition.content.production.maleAdult.sinus_anatomy.json",
+    "title": "Sinus Anatomy",
+    "suggestedFilename": "sinus-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/0a44991f-acd2-48db-9e0c-e8613124e40a/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/sinus_anatomy.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Ear, Nose, and Throat",
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Lungs and Breathing",
+      "Pulmonology and Respiratory",
+      "Anatomy",
+      "regional",
+      "Head and Neck",
+      "Anatomy and Physiology",
+      "Otolaryngology"
+    ]
+  },
+  {
+    "index": 95,
+    "id": "Condition.content.production.maleAdult.soft_palate_guided.json",
+    "title": "Soft Palate",
+    "suggestedFilename": "soft-palate.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/9c5fe50c-d8ac-4ed7-b2bf-7b229d34fe4e/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/soft_palate_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 96,
+    "id": "Condition.content.production.maleAdult.sphenopalatine_foramen_and_pterygopalatine_fossa_guided.json",
+    "title": "Sphenopalatine foramen & Pterygopalatine fossa",
+    "suggestedFilename": "sphenopalatine-foramen-pterygopalatine-fossa.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/80f9fc5a-a6ec-47b6-9f57-9a08e66f67ed/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/sphenopalatine_foramen_and_pterygopalatine_fossa_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 97,
+    "id": "Condition.content.production.maleAdult.neck_guided.json",
+    "title": "Sternocleidomastoid Muscle",
+    "suggestedFilename": "sternocleidomastoid-muscle.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/89d469cc-8294-4194-952c-33be73a6f4b4/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/neck_guided.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 98,
+    "id": "Condition.content.production.maleAdult.subclavian_artery_guided.json",
+    "title": "Subclavian Artery",
+    "suggestedFilename": "subclavian-artery.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/4f464d5d-b6f3-4591-9606-18836104dbc5/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/subclavian_artery_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Upper Limb",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 99,
+    "id": "Condition.content.production.maleAdult.superficial_layer_guided.json",
+    "title": "Superficial Layer of the Back",
+    "suggestedFilename": "superficial-layer-of-the-back.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/8131c990-ec52-4e47-92a3-7f73b98f4f69/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/superficial_layer_guided.json",
+    "description": "The back is the posterior region of the body that extends from the neck to the superior border of the pelvis. The back contains the vertebral column and spinal cord, as well as the broad muscles that move the upper limbs and maintain posture.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "Back",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 100,
+    "id": "Condition.content.production.maleAdult.surface_features_heart_guided.json",
+    "title": "Surface Features of the Heart",
+    "suggestedFilename": "surface-features-of-the-heart.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/fcdfbdd9-bc50-4df1-ab71-4c086a07b1f4/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/surface_features_heart_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "Thorax",
+      "regional",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 101,
+    "id": "Condition.content.production.maleAdult.thorax_anatomy_terms.json",
+    "title": "Thorax Anatomy",
+    "suggestedFilename": "thorax-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/03f9b30a-77e8-45df-b15b-76f4e9df8514/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/thorax_anatomy_terms.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Disease",
+      "featured",
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Guided Anatomy",
+      "Pulmonology and Respiratory",
+      "regional",
+      "Thorax",
+      "Anatomy and Physiology"
+    ]
+  },
+  {
+    "index": 102,
+    "id": "Condition.content.production.maleAdult.thyroid_gland_anatomy.json",
+    "title": "Thyroid Anatomy",
+    "suggestedFilename": "thyroid-anatomy.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/d5732d8a-63a5-4617-83da-10fb4558c6c0/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/thyroid_gland_anatomy.json",
+    "description": "The human body is a complex structure made of thousands of distinct parts. These components can be organized based on region, such as head, neck, thorax, abdomen, and limbs, or based on similar functions, such as respiration or circulation. By working together, these structures enable humans to survive and reproduce.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Guided Anatomy",
+      "Basic",
+      "regional",
+      "Anatomy",
+      "Anatomy and Physiology",
+      "Endocrinology"
+    ]
+  },
+  {
+    "index": 103,
+    "id": "Condition.content.production.maleAdult.thyroid_and_parathyroid_glands_guided.json",
+    "title": "Thyroid and Parathyroid Glands",
+    "suggestedFilename": "thyroid-and-parathyroid-glands.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/8a52e5cb-713c-4263-849d-5433dd6793c6/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/thyroid_and_parathyroid_glands_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 104,
+    "id": "Condition.content.production.maleAdult.tonsillar_bed_guided.json",
+    "title": "Tonsillar Bed",
+    "suggestedFilename": "tonsillar-bed.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/1196dd7c-7edc-4ced-8532-43f75ca27839/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/tonsillar_bed_guided.json",
+    "description": "The head is the most superior region of the body. It serves as the \"control center\" of consciousness and contains the brain and bones of the skull, the muscles of facial expression, and special sensory organs.\n\nThe neck is the region between the head and trunk. It serves as a passageway for vital vessels and structures, such as the carotid arteries, jugular veins, trachea, and esophagus. It also houses the thyroid gland.",
+    "tags": [
+      "Gross Anatomy",
+      "Premium",
+      "male",
+      "Guided Anatomy",
+      "Anatomy for Medical Students",
+      "regional",
+      "Anatomy and Physiology",
+      "Head and Neck"
+    ]
+  },
+  {
+    "index": 105,
+    "id": "Condition.content.production.maleAdult.male_region_upper_limb_20.json",
+    "title": "Upper Limb",
+    "suggestedFilename": "upper-limb.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/1deadecf-11ba-4260-8db1-cd61a8f320cd/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/male_region_upper_limb_20.json",
+    "description": "The upper limbs are symmetrical, appendicular structures that are attached to the thorax at the shoulder joint. They are characterized by their mobility and dexterity.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Premium",
+      "Anatomy",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  },
+  {
+    "index": 106,
+    "id": "Condition.content.production.maleAdult.vasculature_of_pelvis_guided.json",
+    "title": "Vasculature of Pelvis",
+    "suggestedFilename": "vasculature-of-pelvis.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/11c4bc50-a798-40d4-9cad-5d4c5e22699d/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/vasculature_of_pelvis_guided.json",
+    "description": "The pelvis is the most inferior region of the trunk. It contains the reproductive organs, as well as the rectum and bladder.\n\nThe lower limbs attach to the pelvis at the hip joint.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "regional",
+      "Anatomy and Physiology",
+      "Pelvis"
+    ]
+  },
+  {
+    "index": 107,
+    "id": "Condition.content.production.maleAdult.vasculature_guided.json",
+    "title": "Vasculature of the Upper Limb",
+    "suggestedFilename": "vasculature-of-the-upper-limb.jpg",
+    "thumbnailUrl": "https://human.biodigital.com/media/images/93eb9417-063a-49cc-a50d-6cec6e828e41/small/image.jpg",
+    "embedUrl": "https://human.biodigital.com/widget/?m=production/maleAdult/vasculature_guided.json",
+    "description": "The thorax is the region of the trunk that extends from the neck to the abdomen. It contains the ribs, heart, and lungs, and serves as the center of the cardiovascular system.\n\nThe upper limbs attach to the thorax at the shoulder joint.",
+    "tags": [
+      "Gross Anatomy",
+      "male",
+      "Anatomy for Medical Students",
+      "Guided Anatomy",
+      "Premium",
+      "regional",
+      "Anatomy and Physiology",
+      "Upper Limb"
+    ]
+  }
+]

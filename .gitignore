@@ -26,4 +26,6 @@ dist-ssr
 # Nested repositories and internal secrets
 gatekeep-secret/
 scratch_crop.png
+test-results/
 
+test-results/

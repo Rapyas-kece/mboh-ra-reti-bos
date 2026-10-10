@@ -9,22 +9,28 @@ import SectionPill from './components/SectionPill'
 import MarqueePill from './components/MarqueePill'
 import FloatingCTA from './components/FloatingCTA'
 import Dashboard from './components/Dashboard'
+import Dashboard2 from './components/Dashboard2'
 import AnatomiPreview from './components/AnatomiPreview'
+import HimsSidebar from './components/HimsSidebar'
+import BioViewerUI from './components/biodigital/BioViewerUI'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const getInitialView = () => {
   if (typeof window === 'undefined') return 'landing'
   const path = window.location.pathname.toLowerCase().replace(/\/+$/, '')
+  if (path === '/viewer') return 'viewer'
   if (path === '/preview') return 'preview'
+  if (path === '/dashboard-2') return 'dashboard-2'
   if (path === '/dashboard') return 'dashboard'
   return 'landing'
 }
 
 export default function App() {
-  const [view, setView] = useState(getInitialView) // 'landing' | 'dashboard'
+  const [view, setView] = useState(getInitialView) // 'landing' | 'dashboard' | 'preview'
   const [headerTheme, setHeaderTheme] = useState('dark')
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   // Navigation function syncing URL pathname
   const navigateTo = (targetView) => {
@@ -32,6 +38,20 @@ export default function App() {
     const targetPath = targetView === 'landing' ? '/' : `/${targetView}`
     window.history.pushState({}, '', targetPath)
     window.scrollTo({ top: 0, behavior: 'instant' })
+  }
+
+  // Smooth scroll to landing page sections
+  const scrollToSection = (sectionId) => {
+    if (view !== 'landing') {
+      navigateTo('landing')
+      setTimeout(() => {
+        const el = sectionId === 'section1' ? section1Ref.current : section2Ref.current
+        if (el) el.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+    } else {
+      const el = sectionId === 'section1' ? section1Ref.current : section2Ref.current
+      if (el) el.scrollIntoView({ behavior: 'smooth' })
+    }
   }
 
   // Handle browser back/forward buttons
@@ -136,27 +156,59 @@ export default function App() {
     }
   }, [view])
 
+  // If viewing 1:1 BioDigital UI Viewer (without 3D engine):
+  if (view === 'viewer') {
+    return <BioViewerUI onBackToLanding={() => navigateTo('landing')} />
+  }
+
   // If viewing the 3D AnatomiLab Preview:
   if (view === 'preview') {
     return <AnatomiPreview onBackToLanding={() => navigateTo('landing')} />
   }
 
+  // If viewing Dashboard 2 (BioDigital 1:1 with Real Assets):
+  if (view === 'dashboard-2') {
+    return (
+      <Dashboard2
+        onBackToLanding={() => navigateTo('landing')}
+        onNavigateToPreview={() => navigateTo('preview')}
+      />
+    )
+  }
+
   // If viewing the Dashboard:
   if (view === 'dashboard') {
-    return <Dashboard onBackToLanding={() => navigateTo('landing')} />
+    return (
+      <Dashboard
+        onBackToLanding={() => navigateTo('landing')}
+        onNavigateToPreview={() => navigateTo('preview')}
+      />
+    )
   }
 
   // Default: Landing Page View
   return (
     <div className="w-full min-h-screen bg-[#0f0f0f] text-white selection:bg-[#deff00] selection:text-[#0f0f0f]">
       {/* 1. Dynamic Fixed Header with Theme Inversion & Route Links */}
-      <Header theme={headerTheme} onNavigate={navigateTo} />
+      <Header
+        theme={headerTheme}
+        onNavigate={navigateTo}
+        onOpenMenu={() => setIsMenuOpen(true)}
+      />
 
-      {/* 2. Floating Docked CTA Button (Navigates directly to route "/dashboard") */}
+      {/* 2. Hims-Inspired Drawer Sidebar */}
+      <HimsSidebar
+        isOpen={isMenuOpen}
+        onClose={() => setIsMenuOpen(false)}
+        onNavigate={navigateTo}
+        onScrollToSection={scrollToSection}
+      />
+
+      {/* 3. Floating Docked CTA Button (Navigates directly to route "/dashboard") */}
       <FloatingCTA
         theme={headerTheme}
         isScrolled={isScrolled}
-        label="Explore Dashboard"
+        label="Mulai Eksplorasi"
         onClick={() => navigateTo('dashboard')}
       />
 
@@ -175,13 +227,14 @@ export default function App() {
           sectionRef={section1Ref}
           theme="white"
           reversed={false}
-          slashTitle="Engineer tomorrow's leaders"
+          slashTitle="01. EDUKASI MULTIORGAN"
           paragraphs={[
-            'We unite seven specialized domains to transform your vision into market-ready reality.',
-            "Each mission combines strategic insight, technical excellence, and operational rigor to unlock your company's true potential.",
+            'Tubuh kita bekerja sebagai satu kesatuan sistem, bukan organ yang terisolasi. Satu kebiasaan buruk memicu beban kompensasi pada seluruh organ vital.',
+            'Pelajari keterhubungan antara paru-paru, jantung, dan sistem saraf secara 360°. Pahami anatomi dengan cara yang hidup, kontekstual, dan mudah dimengerti.',
           ]}
-          ctaText="Expertise"
-          ctaLink="/expertise"
+          ctaText="Jelajahi Organ"
+          ctaLink="/preview"
+          onCtaClick={() => navigateTo('preview')}
           videoWebm="https://res.cloudinary.com/mkpill/video/upload/v1691752608/launch_pill_6ae3865c71.webm"
           videoMp4="https://res.cloudinary.com/mkpill/video/upload/v1691752608/launch_pill_795f2be8d2.mp4"
         />
@@ -194,13 +247,14 @@ export default function App() {
           sectionRef={section2Ref}
           theme="dark"
           reversed={true}
-          slashTitle="Our philosophy"
+          slashTitle="02. PREDIKSI PREVENTIF"
           paragraphs={[
-            'Real value emerges from strategy, architecture and people, not spreadsheets.',
-            "Our team of specialists doesn't simply advise, we transform. We act. We reshape markets by building companies that lead, not follow.",
+            'Mencegah selalu lebih murah daripada mengobati. Melalui pemodelan komputasi cerdas, kami memetakan risiko kesehatan sebelum gejala klinis muncul.',
+            'Gabungan data medis presisi dan simulasi interaktif mengubah cara dokter, pendidik, dan pasien berdialog mengenai urgensi pencegahan penyakit kronis.',
           ]}
-          ctaText="Our values"
-          ctaLink="/about"
+          ctaText="Cek Prediksi"
+          ctaLink="/dashboard"
+          onCtaClick={() => navigateTo('dashboard')}
           videoWebm="https://res.cloudinary.com/mkpill/video/upload/v1691752606/ai_pill_5352472919.webm"
           videoMp4="https://res.cloudinary.com/mkpill/video/upload/v1691752606/ai_pill_238dfa28bc.mp4"
         />
