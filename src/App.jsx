@@ -152,12 +152,12 @@ export default function App() {
       {/* 1. Dynamic Fixed Header with Theme Inversion & Route Links */}
       <Header theme={headerTheme} onNavigate={navigateTo} />
 
-      {/* 2. Floating Docked CTA Button (Navigates directly to route "/preview") */}
+      {/* 2. Floating Docked CTA Button (Navigates directly to route "/dashboard") */}
       <FloatingCTA
         theme={headerTheme}
         isScrolled={isScrolled}
-        label="Explore 3D AnatomiLab"
-        onClick={() => navigateTo('preview')}
+        label="Explore Dashboard"
+        onClick={() => navigateTo('dashboard')}
       />
 
       {/* Main Content Sections */}
@@ -168,6 +168,7 @@ export default function App() {
           outerRef={heroOuterRef}
           bgRef={heroBgRef}
           overlayRef={heroOverlayRef}
+          onNavigate={navigateTo}
         />
 
         {/* Section 1 (Theme White): Launch Pill with Dual Parallax & Text Stagger */}

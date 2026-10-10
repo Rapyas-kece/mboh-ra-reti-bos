@@ -1,14 +1,16 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 
-export default function Hero({ heroRef, outerRef, bgRef, overlayRef }) {
+export default function Hero({ heroRef, outerRef, bgRef, overlayRef, onNavigate }) {
   const titleRef = useRef(null)
   const taglineRef = useRef(null)
+  const ctaRef = useRef(null)
 
   useEffect(() => {
     // Hero Entrance Text Reveal Animation on initial mount
     const titleEl = titleRef.current
     const taglineEl = taglineRef.current
+    const ctaEl = ctaRef.current
 
     if (titleEl && taglineEl) {
       const entranceTl = gsap.timeline({ delay: 0.2 })
@@ -35,6 +37,20 @@ export default function Hero({ heroRef, outerRef, bgRef, overlayRef }) {
           },
           '-=0.9'
         )
+
+      if (ctaEl) {
+        entranceTl.fromTo(
+          ctaEl,
+          { opacity: 0, y: 20 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1.0,
+            ease: 'expo.out',
+          },
+          '-=0.8'
+        )
+      }
     }
   }, [])
 
@@ -95,6 +111,20 @@ export default function Hero({ heroRef, outerRef, bgRef, overlayRef }) {
               <br />
               through strategy, design, and technology.
             </p>
+          </div>
+
+          {/* Hero Section CTA Button */}
+          <div ref={ctaRef} className="mt-[40rem]">
+            <button
+              type="button"
+              onClick={() => onNavigate && onNavigate('dashboard')}
+              className="group inline-flex items-center gap-[12rem] lg:gap-[16rem] px-[32rem] py-[16rem] lg:px-[40rem] lg:py-[18rem] rounded-full bg-[#deff00] text-[#0f0f0f] font-medium text-[16rem] lg:text-[18rem] leading-none transition-all duration-300 hover:bg-white hover:scale-105 shadow-xl shadow-[#deff00]/15 cursor-pointer"
+            >
+              <span>Explore Dashboard</span>
+              <span className="transition-transform duration-300 group-hover:translate-x-[4rem]" aria-hidden="true">
+                &rarr;
+              </span>
+            </button>
           </div>
         </div>
       </div>
