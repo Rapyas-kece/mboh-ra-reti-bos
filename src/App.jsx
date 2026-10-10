@@ -168,7 +168,6 @@ export default function App() {
           outerRef={heroOuterRef}
           bgRef={heroBgRef}
           overlayRef={heroOverlayRef}
-          onNavigate={navigateTo}
         />
 
         {/* Section 1 (Theme White): Launch Pill with Dual Parallax & Text Stagger */}
