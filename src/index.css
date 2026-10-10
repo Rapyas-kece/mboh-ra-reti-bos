@@ -86,3 +86,12 @@ body::-webkit-scrollbar {
 .clip-slash {
   clip-path: polygon(10rem 0, 100% 0, 100% 100%, 0 100%);
 }
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
