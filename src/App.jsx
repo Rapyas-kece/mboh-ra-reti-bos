@@ -9,12 +9,14 @@ import SectionPill from './components/SectionPill'
 import MarqueePill from './components/MarqueePill'
 import FloatingCTA from './components/FloatingCTA'
 import Dashboard from './components/Dashboard'
+import AnatomiPreview from './components/AnatomiPreview'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const getInitialView = () => {
   if (typeof window === 'undefined') return 'landing'
-  const path = window.location.pathname.toLowerCase().replace(/\/$/, '')
+  const path = window.location.pathname.toLowerCase().replace(/\/+$/, '')
+  if (path === '/preview') return 'preview'
   if (path === '/dashboard') return 'dashboard'
   return 'landing'
 }
