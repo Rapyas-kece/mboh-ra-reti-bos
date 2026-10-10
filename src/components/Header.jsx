@@ -1,4 +1,4 @@
-export default function Header({ theme = 'dark' }) {
+export default function Header({ theme = 'dark', onNavigate }) {
   const isWhite = theme === 'white'
 
   return (
@@ -10,7 +10,17 @@ export default function Header({ theme = 'dark' }) {
       <div className="flex items-center relative w-full [&>*]:flex-1">
         {/* Logo */}
         <div className="flex justify-start">
-          <a href="/" aria-current="page" className="pointer-events-auto">
+          <a
+            href="/"
+            onClick={(e) => {
+              if (onNavigate) {
+                e.preventDefault()
+                onNavigate('landing')
+              }
+            }}
+            aria-current="page"
+            className="pointer-events-auto"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="100"
@@ -31,25 +41,44 @@ export default function Header({ theme = 'dark' }) {
           </a>
         </div>
 
-        {/* Breadcrumb */}
-        <div className="flex justify-center">
-          <div className="hidden lg:block text-[14rem] leading-[140%] uppercase">
-            <nav aria-label="Breadcrumb">
-              <ul className="flex items-center">
-                <li className="flex items-center">
-                  <span className="inline-block mr-[4rem]">/</span>
-                  <a
-                    href="/"
-                    aria-current="page"
-                    className="inline-block max-w-[130rem] truncate"
-                  >
-                    &nbsp;index&nbsp;
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+        {/* Center Navigation Shortcuts */}
+        <div className="flex justify-center items-center gap-3 pointer-events-auto">
+          <a
+            href="/preview"
+            onClick={(e) => {
+              if (onNavigate) {
+                e.preventDefault()
+                onNavigate('preview')
+              }
+            }}
+            className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border text-xs font-semibold uppercase tracking-wider transition-all duration-300 ${
+              isWhite
+                ? 'border-[#0f0f0f]/30 hover:border-[#0f0f0f] bg-black/5 text-[#0f0f0f] hover:bg-black/10'
+                : 'border-cyan-500/50 hover:border-cyan-400 bg-cyan-950/40 text-cyan-300 hover:text-white hover:bg-cyan-900/60 shadow-lg shadow-cyan-950/50'
+            }`}
+          >
+            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+            3D AnatomiLab
+          </a>
+
+          <a
+            href="/dashboard"
+            onClick={(e) => {
+              if (onNavigate) {
+                e.preventDefault()
+                onNavigate('dashboard')
+              }
+            }}
+            className={`hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium uppercase tracking-wider transition-all duration-300 ${
+              isWhite
+                ? 'border-[#0f0f0f]/20 hover:border-[#0f0f0f] text-[#0f0f0f]/80 hover:text-[#0f0f0f]'
+                : 'border-white/20 hover:border-white text-white/70 hover:text-white'
+            }`}
+          >
+            Dashboard
+          </a>
         </div>
+
 
         {/* Menu Toggle */}
         <div className="flex justify-end gap-[45rem]">

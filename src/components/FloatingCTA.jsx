@@ -1,4 +1,9 @@
-export default function FloatingCTA({ theme = 'dark', isScrolled = false }) {
+export default function FloatingCTA({
+  theme = 'dark',
+  isScrolled = false,
+  onClick,
+  label = 'Explore 3D AnatomiLab',
+}) {
   const isWhite = theme === 'white'
 
   return (
@@ -9,9 +14,10 @@ export default function FloatingCTA({ theme = 'dark', isScrolled = false }) {
           : 'bottom-[48rem] lg:bottom-[64rem] scale-100 opacity-100'
       }`}
     >
-      <a
-        href="/contact"
-        className={`group relative inline-flex items-center gap-[14rem] lg:gap-[18rem] px-[36rem] py-[18rem] lg:px-[48rem] lg:py-[22rem] rounded-full border text-[16rem] lg:text-[19rem] font-medium leading-none overflow-hidden transition-all duration-500 ${
+      <button
+        type="button"
+        onClick={onClick}
+        className={`group relative inline-flex items-center gap-[14rem] lg:gap-[18rem] px-[36rem] py-[18rem] lg:px-[48rem] lg:py-[22rem] rounded-full border text-[16rem] lg:text-[19rem] font-medium leading-none overflow-hidden transition-all duration-500 cursor-pointer ${
           isWhite
             ? 'border-[#0f0f0f] bg-transparent text-[#0f0f0f] hover:bg-[#0f0f0f] hover:text-white'
             : 'border-white bg-transparent text-white hover:border-[#deff00] hover:bg-[#deff00] hover:text-[#0f0f0f]'
@@ -37,8 +43,9 @@ export default function FloatingCTA({ theme = 'dark', isScrolled = false }) {
 
         {/* Action Label */}
         <span className="relative tracking-wide font-normal transition-transform duration-300 group-hover:translate-x-[-2rem]">
-          Brief us
+          {label}
         </span>
+
 
         {/* Directed Arrow Icon */}
         <span
@@ -47,7 +54,7 @@ export default function FloatingCTA({ theme = 'dark', isScrolled = false }) {
         >
           →
         </span>
-      </a>
+      </button>
     </div>
   )
 }

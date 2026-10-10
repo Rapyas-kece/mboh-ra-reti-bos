@@ -8,12 +8,38 @@ import Hero from './components/Hero'
 import SectionPill from './components/SectionPill'
 import MarqueePill from './components/MarqueePill'
 import FloatingCTA from './components/FloatingCTA'
+import Dashboard from './components/Dashboard'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const getInitialView = () => {
+  if (typeof window === 'undefined') return 'landing'
+  const path = window.location.pathname.toLowerCase().replace(/\/$/, '')
+  if (path === '/dashboard') return 'dashboard'
+  return 'landing'
+}
+
 export default function App() {
+  const [view, setView] = useState(getInitialView) // 'landing' | 'dashboard'
   const [headerTheme, setHeaderTheme] = useState('dark')
   const [isScrolled, setIsScrolled] = useState(false)
+
+  // Navigation function syncing URL pathname
+  const navigateTo = (targetView) => {
+    setView(targetView)
+    const targetPath = targetView === 'landing' ? '/' : `/${targetView}`
+    window.history.pushState({}, '', targetPath)
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }
+
+  // Handle browser back/forward buttons
+  useEffect(() => {
+    const handlePopState = () => {
+      setView(getInitialView())
+    }
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
 
   // Animation element references
   const heroRef = useRef(null)
@@ -25,6 +51,8 @@ export default function App() {
   const section2Ref = useRef(null)
 
   useEffect(() => {
+    if (view !== 'landing') return
+
     // 1. Lenis Smooth Scroll Setup
     const lenis = new Lenis({
       duration: 1.2,
@@ -49,7 +77,7 @@ export default function App() {
     const mm = gsap.matchMedia()
 
     mm.add('(min-width: 1024px)', () => {
-      // Hero Parallax & Overlay Fade (Transisi halus keluar dari Hero ke Section 1)
+      // Hero Parallax & Overlay Fade
       if (heroRef.current && heroOuterRef.current && heroOverlayRef.current) {
         const heroTl = gsap.timeline({
           scrollTrigger: {
@@ -82,7 +110,7 @@ export default function App() {
       }
     })
 
-    // 4. Section Layout Theme Trigger (Dynamic Color Inversion Header & Floating CTA)
+    // 4. Section Layout Theme Trigger
     const sections = document.querySelectorAll('[data-layout-theme]')
     sections.forEach((sec) => {
       const theme = sec.getAttribute('data-layout-theme')
@@ -95,7 +123,6 @@ export default function App() {
       })
     })
 
-    // Refresh triggers to ensure correct layout calculations
     setTimeout(() => {
       ScrollTrigger.refresh()
     }, 100)
@@ -105,15 +132,31 @@ export default function App() {
       ScrollTrigger.getAll().forEach((t) => t.kill())
       lenis.destroy()
     }
-  }, [])
+  }, [view])
 
+  // If viewing the 3D AnatomiLab Preview:
+  if (view === 'preview') {
+    return <AnatomiPreview onBackToLanding={() => navigateTo('landing')} />
+  }
+
+  // If viewing the Dashboard:
+  if (view === 'dashboard') {
+    return <Dashboard onBackToLanding={() => navigateTo('landing')} />
+  }
+
+  // Default: Landing Page View
   return (
     <div className="w-full min-h-screen bg-[#0f0f0f] text-white selection:bg-[#deff00] selection:text-[#0f0f0f]">
-      {/* 1. Dynamic Fixed Header with Theme Inversion */}
-      <Header theme={headerTheme} />
+      {/* 1. Dynamic Fixed Header with Theme Inversion & Route Links */}
+      <Header theme={headerTheme} onNavigate={navigateTo} />
 
-      {/* 2. Floating Docked CTA Button (Animates larger at bottom center on scroll) */}
-      <FloatingCTA theme={headerTheme} isScrolled={isScrolled} />
+      {/* 2. Floating Docked CTA Button (Navigates directly to route "/preview") */}
+      <FloatingCTA
+        theme={headerTheme}
+        isScrolled={isScrolled}
+        label="Explore 3D AnatomiLab"
+        onClick={() => navigateTo('preview')}
+      />
 
       {/* Main Content Sections */}
       <main className="w-full">
