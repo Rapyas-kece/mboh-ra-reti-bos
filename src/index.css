@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/NeueHaasDisplay-Roman.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/NeueHaasDisplay-RomanItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/NeueHaasDisplay-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: italic;
+  font-weight: 500;
+  src: url("/fonts/NeueHaasDisplay-MediumItalic.woff2") format("woff2");
+}
+
+/* Makepill Responsive Fluid Unit Sizing */
+:root {
+  font-size: 0.2666666667vw;
+  scrollbar-width: none;
+}
+
+@media (min-width: 480px) {
+  :root {
+    font-size: 0.2083333333vw;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 0.1302083333vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: 0.0595238095vw;
+  }
+}
+
+@media (min-width: 1920px) {
+  :root {
+    font-size: 0.0520833333vw;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    font-size: 0.0446428571vw;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: "Neue Haas Grotesk Display Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Diagonal Slash Clip */
+.clip-slash {
+  clip-path: polygon(10rem 0, 100% 0, 100% 100%, 0 100%);
+}
