@@ -28,4 +28,5 @@ gatekeep-secret/
 scratch_crop.png
 test-results/
 
-test-results/
+# Build & temp files
+*_temp.html

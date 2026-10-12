@@ -74,7 +74,18 @@ AnatomiLab 3D adalah ekosistem aplikasi berbasis peramban (*Progressive Web App*
 #### B. Pilar Healthcare: *Full-Body System Dynamic Simulation & Recovery Timeline*
 * **Algoritma Composite Degradation Index (CDI):** Kerusakan organ dimodelkan secara komputasional berbasis fungsi akumulasi risiko temporal:
   $$\text{Degradasi}(t) = \sum_{i=1}^{n} (w_i \cdot \text{Faktor\_Gaya\_Hidup}_i) \times t^{\gamma}$$
-  di mana $w_i$ adalah bobot dampak klinis kebiasaan buruk (merokok, alkohol, sedentari, tidur <5 jam, gula berlebih) dan $t$ adalah durasi tahun (1–5 tahun).
+
+  **Penjelasan Rumus:**
+  | Simbol | Makna | Contoh Nilai |
+  | :---: | :--- | :--- |
+  | $\text{Degradasi}(t)$ | Skor kerusakan kumulatif organ pada waktu $t$ (skala 0–100%) | — |
+  | $n$ | Jumlah faktor gaya hidup buruk yang dipilih pengguna | 1–5 faktor |
+  | $w_i$ | Bobot dampak klinis faktor ke-$i$ (nilai 0–1, berbeda per organ; ditetapkan berdasarkan literatur klinis) | Rokok: 0.35, Sedentari: 0.20 |
+  | $\text{Faktor\_Gaya\_Hidup}_i$ | Intensitas/frekuensi kebiasaan buruk ke-$i$ (normalisasi 0–1 dari input slider pengguna) | Vape harian = 1.0 |
+  | $t$ | Durasi paparan dalam tahun (input slider pengguna, rentang 1–5) | 3 tahun |
+  | $\gamma$ | Eksponen akselerasi (nilai > 1 merepresentasikan kerusakan yang bersifat non-linear dan semakin cepat seiring waktu) | 1.4 |
+
+  **Interpretasi Singkat:** Semakin banyak kebiasaan buruk aktif ($n$ besar), semakin berat bobot klinis ($w_i$ besar), dan semakin lama durasi ($t$ besar), maka skor degradasi meningkat secara *non-linear* (dipangkatkan $\gamma > 1$)—mencerminkan fakta medis bahwa kerusakan organ bersifat kumulatif dan akseleratif, bukan sekadar penjumlahan linear.
 * **Simulasi Multiorgan Komposit:**
   * *Paru-Paru:* Akumulasi partikulat tar/nikotin rokok & aerosol vape terhadap inflamasi bronkus dan penurunan elastisitas alveolus.
   * *Kardiovaskular:* Dampak pola makan tinggi kolesterol & minim gerak terhadap pembentukan plak aterosklerosis arteri koroner.
@@ -83,7 +94,10 @@ AnatomiLab 3D adalah ekosistem aplikasi berbasis peramban (*Progressive Web App*
 * **Whole-Body Simultaneous Mode & Recovery Timeline:** Memperlihatkan bagaimana kerusakan satu organ memicu beban kompensasi pada organ lain. Dilengkapi **Mode Pemulihan (*Recovery*)**, yang memvisualisasikan regenerasi seluler dan perbaikan sirkulasi ketika pengguna mengadopsi hidrasi, aerobik, tidur cukup, dan nutrisi antioksidan.
 
 #### C. Pilar Economy: *Context-Aware Preventive Marketplace & UMKM Empowerment*
-* **Algoritma Rekomendasi Preventif Kontekstual:** Saat simulasi menunjukkan degradasi organ tertentu, sistem secara otomatis merekomendasikan gaya hidup preventif dan produk herbal lokal terstandar BPOM (misal: teh temulawak untuk fungsi hepar, suplemen bawang putih/daun salam terstandar untuk kolesterol, madu hutan murni untuk imunitas paru).
+* **Algoritma Rekomendasi Preventif Kontekstual:** Saat simulasi menunjukkan degradasi organ tertentu, sistem secara otomatis merekomendasikan gaya hidup preventif beserta produk pangan fungsional dan herbal lokal terstandar yang telah memiliki izin edar BPOM RI. Seluruh klaim produk dalam platform **tunduk pada Peraturan BPOM No. 1 Tahun 2022** dan hanya menggunakan klaim fungsional yang diizinkan (contoh: *"mendukung fungsi hati"*, *"membantu menjaga kesehatan jantung"*, *"mendukung daya tahan tubuh"*)—**bukan klaim terapeutik atau pengobatan** (tidak menggunakan frasa seperti *"menyembuhkan"*, *"mengobati"*, atau *"menggantikan obat"*). Contoh referensi produk: minuman berbahan temulawak (*Curcuma xanthorrhiza*) terdaftar BPOM untuk mendukung fungsi hati; produk berbahan bawang putih atau daun salam untuk mendukung kesehatan kardiovaskular; madu hutan murni untuk mendukung daya tahan tubuh.
+
+  > **Catatan Keamanan Legal:** Rekomendasi produk pada platform bersifat edukatif dan bukan merupakan anjuran medis atau pengganti konsultasi dokter. Setiap produk yang ditampilkan wajib mencantumkan nomor izin edar BPOM RI yang aktif dan terverifikasi melalui database resmi *cekbpom.pom.go.id*.
+
 * **Integrasi Deep-Link Afiliasi:** Tombol rujukan langsung mengarahkan ke official store UMKM di Shopee/Tokopedia, menciptakan *moment-of-decision buying* yang etis dan berdampak nyata bagi pengusaha lokal.
 
 ### 2.2 Analisis Kebaruan & Komparasi Kompetitif (*Benchmarking*)
@@ -187,7 +201,8 @@ Kelemahan terbesar inovasi lomba mahasiswa adalah ketergantungan pada hibah dan 
                 - Pengujian usability (UI/UX) pada 250 siswa & guru di Yogyakarta.
 
 [Bulan 7 - 9]   FASE 3: Integrasi Ekosistem Ekonomi UMKM
-                - Kurasi 30+ produk UMKM herbal bersertifikasi BPOM & Halal.
+                - Kurasi 30+ produk UMKM bersertifikasi BPOM RI (aktif) & Halal MUI;
+                  verifikasi klaim produk mengacu Peraturan BPOM No. 1/2022 (klaim fungsional saja).
                 - Peluncuran sistem automated deep-linking affiliate & dashboard analitik.
 
 [Bulan 10 - 12] FASE 4: Peluncuran Publik, Kemitraan Sekolah, & Scale-Up
@@ -200,7 +215,7 @@ Kelemahan terbesar inovasi lomba mahasiswa adalah ketergantungan pada hibah dan 
 | Kategori Risiko | Potensi Risiko | Strategi Mitigasi Proaktif |
 | :--- | :--- | :--- |
 | **Akurasi Medis** | Misinformasi atau visualisasi berlebihan (*sensasionalisme*) | Menggandeng dewan penasihat medis (dokter & akademisi FK) untuk memvalidasi algoritma degradasi dan referensi jurnal terindeks Scopus/Sinta. |
-| **Kredibilitas Produk** | Produk UMKM tidak berstandar atau minim izin edar | Menerapkan seleksi ketat (*whitelist*): hanya produk berizin edar BPOM RI dan sertifikasi Halal yang diizinkan masuk dalam katalog rekomendasi. |
+| **Kredibilitas Produk & Kepatuhan Legal** | Produk UMKM tidak berstandar, minim izin edar, atau klaim berlebihan yang melanggar regulasi | Menerapkan seleksi ketat (*whitelist*): hanya produk berizin edar BPOM RI aktif (terverifikasi via *cekbpom.pom.go.id*) dan sertifikasi Halal MUI yang diizinkan masuk katalog. Klaim produk hanya menggunakan klaim fungsional yang diperbolehkan sesuai Peraturan BPOM No. 1/2022—bukan klaim terapeutik. Setiap produk mitra menandatangani *Terms of Compliance* sebelum onboarding. |
 | **Performa Perangkat** | Lag pada ponsel dengan spesifikasi rendah | Menggunakan Level of Detail (LoD) otomatis, pengoptimalan shader, serta opsi *low-graphics mode*. |
 | **Privasi Pengguna** | Kekhawatiran data kebiasaan pengguna | Mengusung arsitektur *privacy by design* tanpa kewajiban login data pribadi sensitif; seluruh simulasi berjalan lokal di peramban. |
 
